@@ -40,6 +40,10 @@ int parenthesis_mtch(const char* array, int l)
         //if (symbolTab_stack[i] != UNDEF)
             printf("%c", out[i]);
     END
-    
+ 
+    free(symbolTab_stack);
+    free(out);
+    symbolTab_stack = NULL;
+    out = NULL;
     return 0;
 }
