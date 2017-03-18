@@ -1,0 +1,18 @@
+string to be matched:
+ HERE IS A SIMPLE EXAMPLE
+begin:
+ EXAMPLE
+       ^
+       -
+        EXAMPLE
+              ^
+              -
+          EXAMPLE
+                ^
+            -
+                EXAMPLE
+                      ^
+                      -
+                  EXAMPLE
+                        ^
+                 -
