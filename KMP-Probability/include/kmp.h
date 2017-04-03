@@ -18,9 +18,9 @@ extern "C" {
 #include <stdio.h>
 #define STRINGLIB(F) stringlib_kmp_##F
 
-size_t pattern_find(const char*, size_t, char*);
+size_t pattern_find(const char* t, size_t len, const char* pttn, size_t pttn_len);
 void GetNext(const char* pattern, int steps[]);
-void KMP_step(char* pttn, int steps[]);
+void GetNext2(const char* pttn, int steps[]);
 
 #ifdef __cplusplus
 }
