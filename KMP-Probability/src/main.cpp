@@ -25,18 +25,18 @@ int main(int argc, const char * argv[]) {
     //pttn =  "ABACABABC";
     // pattern_find(txt.c_str(), txt.length(), pttn.c_str(), pttn.length());
     
-    int l = 6;
+    int l = 5;
     double pb;
     
     pttn = "ABB";
     kmp_pb solver(l, pttn.c_str(), pttn.length(), 2);
-    pb = solver.P(0, 0, l);
+    pb = solver.real_P(0, 0, l);
     
     LOG(INFO) << boost::format("Given a text M of length %1%, the probability of string <P> : %2% in <M> is: %3%") % l % pttn % pb << std::endl;
     
-    pttn = "BBA";
+    pttn = "ABA";
     kmp_pb solver2(l, pttn.c_str(), pttn.length(), 2);
-    pb = solver2.P(0, 0, l);
+    pb = solver2.real_P(0, 0, l);
     
     LOG(INFO) << boost::format("Given a text M of length %1%, the probability of string <P> : %2% in <M> is: %3%") % l % pttn % pb << std::endl;
     return 0;
