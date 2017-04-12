@@ -22,7 +22,7 @@
 //   P(j, j, M_L) = (1 - Q(0))^(M_L - j)
 
 // April 3th, 2017
-// I record what I found (my girl friend go for traveling, and I was coding in home, Peking):
+// I record what I found (I was coding in home, Peking):
 // My DP result is
 /*
 I0403 21:36:33.696638 1741760 main.cpp:35] Given a text M of length 6, the probability of string <P> : ABB in <M> is: 0.402344
