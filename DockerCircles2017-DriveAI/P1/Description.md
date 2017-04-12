@@ -38,3 +38,6 @@ You can specify additional structures, classes or helper functions. The codes sh
 Give your answer within at most 1 hour!
 
 Here is a solution from yiak \(yaik.wy@gmail.com\), for more information please refer to course "Graphics and Basic Tree Operations"
+
+![demo1](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/raw/master/DockerCircles2017-DriveAI/P1/images/demo1.png)
+![demo2](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/raw/master/DockerCircles2017-DriveAI/P1/images/demo2.png)
