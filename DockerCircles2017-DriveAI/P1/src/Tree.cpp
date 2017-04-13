@@ -148,6 +148,7 @@ shared_ptr<vector<string>> DockerBuildDependency(vector<pair<string, string>>& R
             imgs_seq.push_back(nd->img);
         }
         ret->insert(ret->end(), imgs_seq.begin(), imgs_seq.end());
+        delete tree;
     }
     return ret;
 }
