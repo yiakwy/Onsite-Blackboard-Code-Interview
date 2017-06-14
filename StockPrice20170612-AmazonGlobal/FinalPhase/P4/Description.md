@@ -19,7 +19,7 @@ Hence we transform the original array into difference array. For example, test c
     2. set start as pivot go to 1 recursively. Now we got maximum **tail_sum**
     3. return MAX(first_chunk, tail_sum)
 
-####lib:
+#### lib:
 find\_fist\_ne
 
 find\_fist\_po
@@ -27,18 +27,18 @@ find\_fist\_po
 array2diff
 
 longest\_growth\_sum
-    0. deal with exotic simple cases
-    1. find the first position j we got a element whose value is negtive from start
-    2. find the first position k we got a element whose value is positive or 0 from j
-    3. caculate sum[start .. j] as s1
-    4. caculate recursively **tail\_sum** by setting start as k
-    5. s1 + tail\_sum > 0 goto 6 else goto 7
-    6. we can connect them together by stoping at where tail\_sum stops return s1 + sum[j..k] + tail\_sum
-    7. we cannot connect them together return MAX(s1, tail\_sum) by setting stoping positions at k
+0. deal with exotic simple cases
+1. find the first position j we got a element whose value is negtive from start
+2. find the first position k we got a element whose value is positive or 0 from j
+3. caculate sum[start .. j] as s1
+4. caculate recursively **tail_sum** by setting start as k
+5. s1 + tail_sum > 0 goto 6 else goto 7
+    6. we can connect them together by stoping at where tail_sum stops return s1 + sum[j..k] + tail_sum
+    7. we cannot connect them together return MAX(s1, tail_sum) by setting stoping positions at k
 
 ## Asymptotic Time Complexity
 Suppose for a array of length n, we have stops sequence k0=0, k1, ..., km=n
-m must <= n/2
+, where m must be <= n/2
 
 we have:
 
