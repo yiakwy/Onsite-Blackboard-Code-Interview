@@ -15,15 +15,18 @@ Hence we transform the original array into difference array. For example, test c
 
 ## Algortihm Formuation:
     0. move start point to first positive position; if the array has only one element return that or Max(0, that) depending on your definition
-    1. find a pivot so that the contigunous sequence of sum can not be grow any more from the searching start point using **longest growth search**. Now, we got the largest contiguous sum : first\_chunk
+    1. find a pivot so that the contigunous sequence of sum can not be grow any more from the searching start point using **longest growth search**. Now, we got the largest contiguous sum : first_chunk
     2. set start as pivot go to 1 recursively. Now we got maximum **tail_sum**
-    3. return MAX(first\_chunk, tail\_sum)
+    3. return MAX(first_chunk, tail_sum)
 
-lib:
+####lib:
 find\_fist\_ne
+
 find\_fist\_po
+
 array2diff
-longest\_growth\_sum:
+
+longest\_growth\_sum
     0. deal with exotic simple cases
     1. find the first position j we got a element whose value is negtive from start
     2. find the first position k we got a element whose value is positive or 0 from j
@@ -38,9 +41,13 @@ Suppose for a array of length n, we have stops sequence k0=0, k1, ..., km=n
 m must <= n/2
 
 we have:
+
 O\(b\(n-k0\)\) = O\(k1\) - O\(k0\) + O\(b\(n-k1\)\)
+
 O\(b\(n-k1\)\) = O\(k2\) - O\(k1\) + O\(b\(n-k2\)\)
+
 ... ...
+
 O\(b\(n-km\)\) = O\(km\) - O\(k\(m-1\)\)
 
 Finally we have:
