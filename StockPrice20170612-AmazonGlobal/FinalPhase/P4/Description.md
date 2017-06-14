@@ -7,7 +7,7 @@ max P\(tj\) - P\(ti\) \(0 <= ti < tj <= N\)
 
 Difference is not good for accumulation analysis, hence we write difference in accumulation manner, i.e.:
 
-P\(tj\) - P\(ti\) = sum {P\(t\(k\)\) - P\(t\(k-1\)\) + P\(t\(i-1\)\)
+P\(tj\) - P\(ti\) = sum {P\(t\(k\)\) - P\(t\(k-1\)\)} + P\(t\(i-1\)\)
 
 Hence we transform the original array into difference array. For example, test case 
 
