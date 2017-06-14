@@ -33,8 +33,8 @@ array2diff
 3. caculate sum[start .. j] as s1
 4. caculate recursively **tail_sum** by setting start as k
 5. s1 + tail_sum > 0 goto 6 else goto 7
-    6. we can connect them together by stoping at where tail_sum stops return s1 + sum[j..k] + tail_sum
-    7. we cannot connect them together return MAX(s1, tail_sum) by setting stoping positions at k
+6. we can connect them together by stoping at where tail_sum stops return s1 + sum[j..k] + tail_sum
+7. we cannot connect them together return MAX(s1, tail_sum) by setting stoping positions at k
 
 ## Asymptotic Time Complexity
 Suppose for a array of length n, we have stops sequence k0=0, k1, ..., km=n
