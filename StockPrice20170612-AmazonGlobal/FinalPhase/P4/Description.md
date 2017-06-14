@@ -15,7 +15,7 @@ Hence we transform the original array into difference array. For example, test c
 
 ## Algortihm Formuation:
     0. move start point to first positive position; if the array has only one element return that or Max(0, that) depending on your definition
-    1. find a pivot so that the contigunous sequence of sum can not be grow any more from the searching start point using **longest growth search**. Now, we got the largest contiguous sum : first_chunk
+    1. find a pivot so that the contigunous sequence of sum can not be grow any more from the searching start point using **longest_growth_sum**. Now, we got the largest contiguous sum : first_chunk
     2. set start as pivot go to 1 recursively. Now we got maximum **tail_sum**
     3. return MAX(first_chunk, tail_sum)
 
