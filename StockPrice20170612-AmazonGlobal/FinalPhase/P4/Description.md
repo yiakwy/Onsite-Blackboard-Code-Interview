@@ -26,7 +26,7 @@ find\_fist\_po
 
 array2diff
 
-longest\_growth\_sum
+###### longest\_growth\_sum
 0. deal with exotic simple cases
 1. find the first position j we got a element whose value is negtive from start
 2. find the first position k we got a element whose value is positive or 0 from j
