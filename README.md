@@ -5,6 +5,7 @@ Domestic Code Review
 
 | # | Company | Title | Solution | TimeExpected | Difficulty |
 |---|---------|-------|----------|--------------|------------|
+|2017-07-13| Pivot | [MonekySteps](./MonkeyStepsPivot20170713/Description.md) | [c++14](./MonkeyStepsPivot20170713/src/monkey_step.cpp) | 60(mins) | Hard |
 |2017-06-12| Amazon | [Stock Prices](./StockPrice20170612-AmazonGlobal/FinalPhase/P4/Description.md) | [c++14](./StockPrice20170612-AmazonGlobal/FinalPhase/P4/src/stock_analyzer.cpp) | 60(mins) | Medium |
 |2017-03-xx| Drive.ai | [Docker Circles](./DockerCircles2017-DriveAI/P1/Description.md) | [c++14](./DockerCircles2017-DriveAI/P1/src/Tree.cpp) | 60(mins) | Hard |
 |2016-12-xx| NetEasy | [KMP probability theory](./KMP-Probability/Description.md) | [C/C++](./KMP-Probability/src/programming.cpp) | 30(mins) |Hard|
