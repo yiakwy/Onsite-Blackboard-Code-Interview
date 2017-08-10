@@ -7,7 +7,7 @@ Domestic Code Review
 |---|---------|-------|----------|--------------|------------|
 |2017-07-13| Pivot | [MonekySteps](./MonkeyStepsPivot20170713/Description.md) | [c++14](./MonkeyStepsPivot20170713/src/monkey_step.cpp) | 60(mins) | Hard |
 |2017-06-12| Amazon | [Stock Prices](./StockPrice20170612-AmazonGlobal/FinalPhase/P4/Description.md) | [c++14](./StockPrice20170612-AmazonGlobal/FinalPhase/P4/src/stock_analyzer.cpp) | 60(mins) | Medium |
-|2017-06-5| Amazon | [Stock Prices](./StockPrice20170612-AmazonGlobal/secondRound/Description.md) | [c++14](./StockPrice20170612-AmazonGlobal/secondRound/src/minHeap.cpp) | 30(mins) | easy |
+|2017-06-5| Amazon | [Topk](./StockPrice20170612-AmazonGlobal/secondRound/Description.md) | [c++14](./StockPrice20170612-AmazonGlobal/secondRound/src/minHeap.cpp) | 30(mins) | easy |
 |2017-03-xx| Drive.ai | [Docker Circles](./DockerCircles2017-DriveAI/P1/Description.md) | [c++14](./DockerCircles2017-DriveAI/P1/src/Tree.cpp) | 60(mins) | Hard |
 |2016-12-xx| NetEasy | [KMP probability theory](./KMP-Probability/Description.md) | [C/C++](./KMP-Probability/src/programming.cpp) | 30(mins) |Hard|
 |2016-11-08| DSFS | [Parenthesis Printing](./parenthesisMtch20161108-DSFS/Description.md) | [C](./parenthesisMtch20161108-DSFS/src/parenthesis_mtch.c) | 30(mins) |Easy|
