@@ -21,7 +21,7 @@ int min_as_pivot(vector<int> &inp, int start, int end, int* min)
     int i, min_id=start;
     *min = inp[start];
     for (i=start + 1; i < end; i++) {
-        if (*min < inp[i]) {
+        if (*min > inp[i]) {
             min_id = i;
             *min = inp[i];
         }
@@ -35,10 +35,22 @@ inline int triple_max(int a, int b, int c){
     return max_2;
 }
 
+inline int sum(vector<int> &inp, int start, int end)
+{
+    int i, _sum = 0;
+    for (i=start; i<end; i++){
+        _sum += inp[i];
+    }
+    return _sum;
+}
+
 int main_routine(vector<int> &inp, int start, int end){
     
-    if (end - start == 1 || end - start <= 0) {
+    if (end - start == 1) {
         return inp[start] * inp[start];
+    }
+    if (end - start <= 0) {
+        return 0;
     }
     
     int min;
@@ -46,7 +58,7 @@ int main_routine(vector<int> &inp, int start, int end){
     
     int left = main_routine(inp, start, pivot);
     int right = main_routine(inp, pivot+1, end);
-    return triple_max(left, right, min * (end - start));
+    return triple_max(left, right, min * sum(inp, start, end));
 }
 
 int
