@@ -7,7 +7,7 @@ Introduction to writing modern generation of languages
     * Lexcial Aanalysis
     * Semantic Analysis
     * Modern Language Taxonomy
-        * Non terminals
+        * Non-terminals
             * Porgram
             * Block
                 * Execution Flow Control Block
@@ -31,18 +31,16 @@ Introduction to writing modern generation of languages
             * Goto/Jump
             * Arithmetic Operator
             * Boolean Operator
-            * 
     * Tools
         * Flex, Bison
-        * Program Structure
-        * Top-Down Gradient Descent Analysis
-        * More about algoritms
+        * Epic \(scala\)
     * Parsing Techiques:
         * Tokenization
         * Context Free Grammar 
         * Parsing Tree
             * Look forward parsing
             * Gradient Descent parsing
+            * Probabilistic Constrained Random Field Transering
     * Language Evaluation
 2. Runtime Machine
     * Programe bytecodes
