@@ -1,0 +1,11 @@
+#ifndef CONFIG_HPP_
+#define CONFIG_HPP_
+
+#include <string>
+const std::string ROOT = "@PROJECT_SOURCE_DIR@";
+const std::string SRCS_ROOT = "@SRCS_ROOT@";
+const std::string LOG_DIR = "@LOG_DIR@";
+const std::string OS = "@CMAKE_OS_NAME@";
+const std::string USE_LIBSTDCPP = "@USE_LIBSTDCPP@";
+
+#endif

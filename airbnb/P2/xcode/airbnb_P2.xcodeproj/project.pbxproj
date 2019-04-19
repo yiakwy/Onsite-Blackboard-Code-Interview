@@ -1,0 +1,2008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		09F026A7731941E2A477399B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC1BD8A6FF084E618DB2C8F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8BEE0EF81F284E3589A50600 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		1C4B10A2F38B4C6894FA0403 /* Nightly */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06FC905BB64C485CA73D434D /* Build configuration list for PBXAggregateTarget "Nightly" */;
+			buildPhases = (
+				551AD0005E3B4FB3A0DB55B6 /* CMake Rules */,
+			);
+			dependencies = (
+				ACA2297531FB47229048F794 /* PBXTargetDependency */,
+			);
+			name = Nightly;
+			productName = Nightly;
+		};
+		2E516C11522043C6AD374B83 /* Continuous */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7FE7C5D06B20442D9A067FEF /* Build configuration list for PBXAggregateTarget "Continuous" */;
+			buildPhases = (
+				240A4A574F544B3282BDBFE7 /* CMake Rules */,
+			);
+			dependencies = (
+				EE8B45B29AED49CD8A970A8D /* PBXTargetDependency */,
+			);
+			name = Continuous;
+			productName = Continuous;
+		};
+		7FE0170E21DD4AE4825B9ED5 /* Experimental */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1BAD58184C2B4FEC8C5743BB /* Build configuration list for PBXAggregateTarget "Experimental" */;
+			buildPhases = (
+				F359A885AABD4235B276BE55 /* CMake Rules */,
+			);
+			dependencies = (
+				32176F7925F5426397E53D18 /* PBXTargetDependency */,
+			);
+			name = Experimental;
+			productName = Experimental;
+		};
+		DBF95851BA0A4BA5A5A7695A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36593CC5B48447D394C326F3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EDE19AF39AED421CA490764C /* CMake Rules */,
+			);
+			dependencies = (
+				030EC5111AE44819A0737EF3 /* PBXTargetDependency */,
+				FB4E6832F3944BDE823BC96F /* PBXTargetDependency */,
+				596D37DDF8754472BC06C7E1 /* PBXTargetDependency */,
+				628E30EB9E6641D9A4A3F2C4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F0F4275470C44B3BB39CB57C /* NightlyMemoryCheck */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BB502C1928954BE8852D9A81 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */;
+			buildPhases = (
+				4B5FCB573C234A8E952ACE35 /* CMake Rules */,
+			);
+			dependencies = (
+				13D8767A3C584DA8ACA49917 /* PBXTargetDependency */,
+			);
+			name = NightlyMemoryCheck;
+			productName = NightlyMemoryCheck;
+		};
+		F842483B45424DF7AD3BC945 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72B73CBFE96242F0A62320A1 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				CD89412E2C774D8091358D48 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5117128962764E44B9746D39 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/api.h */ = {isa = PBXBuildFile; fileRef = 65602AFA1513449DA2CD8C69 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/api.h */; };
+		63084B59DA3749B29EDACEB0 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.h */ = {isa = PBXBuildFile; fileRef = A6593E341E134918AC09B43F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.h */; };
+		6394A8BC7E8A4A8987A4FD48 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.cpp */ = {isa = PBXBuildFile; fileRef = FD9A1853D7094DFC80359905 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.cpp */; };
+		71FBB6BAD929406BB530C5BB /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.hpp */ = {isa = PBXBuildFile; fileRef = C19F9304D6D74B80B9D969E3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.hpp */; };
+		8B0359EE2C83426082D573E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.cpp */ = {isa = PBXBuildFile; fileRef = 7209F03EA1F145DF8E73FEA8 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.cpp */; };
+		AD2AE3941E5D4EC5BE34D32F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.cpp */ = {isa = PBXBuildFile; fileRef = 5E9B105AEA214A5B88D81A16 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.cpp */; };
+		BAFDF10322DD434985B1CF58 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.hpp */ = {isa = PBXBuildFile; fileRef = D730AD861C754E22B9A4BABD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.hpp */; };
+		BCAA49F378EB4D118BBDB631 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FADFF4ABAA724CFB8DA79736 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/CMakeLists.txt */; };
+		D2A212482CE8442B8ECC06C8 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.cpp */ = {isa = PBXBuildFile; fileRef = 920639C433CA4DCE866980AA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.cpp */; };
+		DD29E53DCF474D94B25EC563 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B5AA1EBFF9ED435994A115E0 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/CMakeLists.txt */; };
+		EA03A4FFB7F4411487078FF7 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.hpp */ = {isa = PBXBuildFile; fileRef = 13D03D7E71614D76B6FBD294 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.hpp */; };
+		F2C1B423D4F84CD2BFD9C786 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0CD4840995474329919246D4 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/CMakeLists.txt */; };
+		F5C07C19FD92431D94261479 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.hpp */ = {isa = PBXBuildFile; fileRef = 2C3F87F3C68E449EAA75641C /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.hpp */; };
+		FC2FFBD4458B40D396C6E44D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.cc */ = {isa = PBXBuildFile; fileRef = F3514EB0959E4B60874C79CF /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		038530BC43DC46CA890F8C9E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		546770CEE2EA4F00A6058260 = {
+			isa = PBXBuildStyle;
+		};
+		59F78C6750294438B5A8B1A9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		761961A7D3E44CF8AB5AE29D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AB8CE19C6B6742C4986FD5BE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		25262728B8474B92B1200A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C91B80591A84CC1BF8B1F74;
+			remoteInfo = graph;
+		};
+		364E9415C5904E6488257FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		3F5099DF037B497A8907154E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		5338E7B9F056417BBF4520D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		57224537E38F444DA2F2FBE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C91B80591A84CC1BF8B1F74;
+			remoteInfo = graph;
+		};
+		6D9CB8D45D9D464CA0CA8C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B5458307F940B9AC9C9496;
+			remoteInfo = common;
+		};
+		70B499AAFA9D45A1828D82FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		95F47EBDAE0F4EE0ACAB2B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		9756966ED8754665BFAECB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B5458307F940B9AC9C9496;
+			remoteInfo = common;
+		};
+		99A0FEB26A5748939B244A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B5458307F940B9AC9C9496;
+			remoteInfo = common;
+		};
+		B59EC39009F746289A5DDE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4901D61A47423BBA70FA7A;
+			remoteInfo = diff_tree_cli;
+		};
+		F7D12E0458C14E759AA29079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		FD59F625E75B471C9F6BF9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+		FF021C3C38684A15888BF6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F026A7731941E2A477399B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001CBAB9A842419C909E31CC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		00B3E159449D497ABFD06AE3 /* graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libgraph.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD4840995474329919246D4 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/graph/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		13D03D7E71614D76B6FBD294 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lambda.hpp; path = src/modules/utils/lambda/lambda.hpp; sourceTree = SOURCE_ROOT; };
+		2C3F87F3C68E449EAA75641C /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = distribution.hpp; path = src/modules/utils/random/distribution.hpp; sourceTree = SOURCE_ROOT; };
+		331C6DC2A8044694B4F680E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		49E6CA807EE2482BB2051C01 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5E9B105AEA214A5B88D81A16 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lambda.cpp; path = src/modules/utils/lambda/lambda.cpp; sourceTree = SOURCE_ROOT; };
+		65602AFA1513449DA2CD8C69 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = api.h; path = src/modules/utils/api.h; sourceTree = SOURCE_ROOT; };
+		7209F03EA1F145DF8E73FEA8 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = distribution.cpp; path = src/modules/utils/random/distribution.cpp; sourceTree = SOURCE_ROOT; };
+		920639C433CA4DCE866980AA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = diff_tree.cpp; path = src/modules/solutions/diff_tree.cpp; sourceTree = SOURCE_ROOT; };
+		A6593E341E134918AC09B43F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = src/modules/graph/graph.h; sourceTree = SOURCE_ROOT; };
+		B5AA1EBFF9ED435994A115E0 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/utils/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C087E0E4978748C0838885A0 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C19F9304D6D74B80B9D969E3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = diff_tree.hpp; path = src/modules/solutions/diff_tree.hpp; sourceTree = SOURCE_ROOT; };
+		D21C6F00B444414EA6E23D31 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D730AD861C754E22B9A4BABD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = logging.hpp; path = src/modules/utils/log/logging.hpp; sourceTree = SOURCE_ROOT; };
+		DC55ABBFEBD2491B91B26909 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EFD3E4E967D5492FBF8800AB /* common */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcommon.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3514EB0959E4B60874C79CF /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cc; path = src/modules/graph/graph.cc; sourceTree = SOURCE_ROOT; };
+		F6926257D5DF4C73915AE3FA /* diff_tree_cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = diff_tree_cli; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADFF4ABAA724CFB8DA79736 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/solutions/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FD9A1853D7094DFC80359905 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logging.cpp; path = src/modules/utils/log/logging.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		056BFB527A3B4109A357C031 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				65602AFA1513449DA2CD8C69 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/api.h */,
+				13D03D7E71614D76B6FBD294 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.hpp */,
+				D730AD861C754E22B9A4BABD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.hpp */,
+				2C3F87F3C68E449EAA75641C /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		0D067C22D321408A9901F2E0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0E0755A5B80A497183385F26 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9B105AEA214A5B88D81A16 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.cpp */,
+				FD9A1853D7094DFC80359905 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.cpp */,
+				7209F03EA1F145DF8E73FEA8 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		15D7AFA117FB4083A70A8C89 /* CTestDashboardTargets */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CF530E37140DB95DECE69 /* NightlyMemoryCheck */,
+				45B410368144457187608CB1 /* Nightly */,
+				732EE2F2718B4799AABF9807 /* Continuous */,
+				B1980F74118C440EB53C48C7 /* Experimental */,
+			);
+			name = CTestDashboardTargets;
+			sourceTree = "<group>";
+		};
+		240940EA074D4B95ADCF99CD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C7339EF387544EA994F87E6D /* CMake Rules */,
+				49E6CA807EE2482BB2051C01 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		45B410368144457187608CB1 /* Nightly */ = {
+			isa = PBXGroup;
+			children = (
+				0D067C22D321408A9901F2E0 /* CMake Rules */,
+				C087E0E4978748C0838885A0 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */,
+			);
+			name = Nightly;
+			sourceTree = "<group>";
+		};
+		484C7BBF43EB446891F63DD7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5F9B8DFD8EF24BFAB55A87F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D1DDB5B8422465E89B7AE0B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				920639C433CA4DCE866980AA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		732EE2F2718B4799AABF9807 /* Continuous */ = {
+			isa = PBXGroup;
+			children = (
+				B24B1DDBFC9C4B59BEC8AFC9 /* CMake Rules */,
+				DC55ABBFEBD2491B91B26909 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */,
+			);
+			name = Continuous;
+			sourceTree = "<group>";
+		};
+		81A75924A19D4091BA9C1653 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8BC95DD4F5B542F99078A29D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		917AEF756514435297B04A3F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6593E341E134918AC09B43F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		92AA405B9F694E56A3594B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B3E159449D497ABFD06AE3 /* graph */,
+				F6926257D5DF4C73915AE3FA /* diff_tree_cli */,
+				EFD3E4E967D5492FBF8800AB /* common */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9358336A021F476FBE29805B /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				81A75924A19D4091BA9C1653 /* CMake Rules */,
+				001CBAB9A842419C909E31CC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		963045508BEE42A887CC9FA6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3514EB0959E4B60874C79CF /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		99704DB022EA4CAF8373B445 /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				917AEF756514435297B04A3F /* Header Files */,
+				963045508BEE42A887CC9FA6 /* Source Files */,
+				0CD4840995474329919246D4 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/CMakeLists.txt */,
+			);
+			name = graph;
+			sourceTree = "<group>";
+		};
+		9B1E3FB1276E41E9A74DF032 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				056BFB527A3B4109A357C031 /* Header Files */,
+				0E0755A5B80A497183385F26 /* Source Files */,
+				B5AA1EBFF9ED435994A115E0 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/CMakeLists.txt */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		AD38147F88FF4980AECDFAB6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				15D7AFA117FB4083A70A8C89 /* CTestDashboardTargets */,
+				240940EA074D4B95ADCF99CD /* ALL_BUILD */,
+				9358336A021F476FBE29805B /* ZERO_CHECK */,
+				99704DB022EA4CAF8373B445 /* graph */,
+				ED1E2D4C3F0E4D829A2B7388 /* diff_tree_cli */,
+				9B1E3FB1276E41E9A74DF032 /* common */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B1980F74118C440EB53C48C7 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				484C7BBF43EB446891F63DD7 /* CMake Rules */,
+				331C6DC2A8044694B4F680E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */,
+			);
+			name = Experimental;
+			sourceTree = "<group>";
+		};
+		B1A125764FDD42B9A7D8FDDD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19F9304D6D74B80B9D969E3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B24B1DDBFC9C4B59BEC8AFC9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BC4CF530E37140DB95DECE69 /* NightlyMemoryCheck */ = {
+			isa = PBXGroup;
+			children = (
+				8BC95DD4F5B542F99078A29D /* CMake Rules */,
+				D21C6F00B444414EA6E23D31 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/CMakeLists.txt */,
+			);
+			name = NightlyMemoryCheck;
+			sourceTree = "<group>";
+		};
+		C7339EF387544EA994F87E6D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DD5249934BC0488C98C46261 = {
+			isa = PBXGroup;
+			children = (
+				AD38147F88FF4980AECDFAB6 /* Sources */,
+				5F9B8DFD8EF24BFAB55A87F3 /* Resources */,
+				92AA405B9F694E56A3594B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1E2D4C3F0E4D829A2B7388 /* diff_tree_cli */ = {
+			isa = PBXGroup;
+			children = (
+				B1A125764FDD42B9A7D8FDDD /* Header Files */,
+				6D1DDB5B8422465E89B7AE0B /* Source Files */,
+				FADFF4ABAA724CFB8DA79736 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/CMakeLists.txt */,
+			);
+			name = diff_tree_cli;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05B5458307F940B9AC9C9496 /* common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BFFB2E36CE4E3984C5C45A /* Build configuration list for PBXNativeTarget "common" */;
+			buildPhases = (
+				230110F0AD414704B876DC1E /* Sources */,
+				BB7EC34416444F2CB19C2944 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FD00DB577E4BA988A2AEA5 /* PBXTargetDependency */,
+			);
+			name = common;
+			productName = common;
+			productReference = EFD3E4E967D5492FBF8800AB /* common */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		2C91B80591A84CC1BF8B1F74 /* graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20F9855C75346BEBF59D5BB /* Build configuration list for PBXNativeTarget "graph" */;
+			buildPhases = (
+				F12CBBDC547C4518BCE7A746 /* Sources */,
+				1A0F9C6C5C99428796AB44A2 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BDD9EBCD334859825AE85C /* PBXTargetDependency */,
+				72EE1987BFF343109C8F7E32 /* PBXTargetDependency */,
+			);
+			name = graph;
+			productName = graph;
+			productReference = 00B3E159449D497ABFD06AE3 /* graph */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		2D4901D61A47423BBA70FA7A /* diff_tree_cli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05461890B704A63BEEF92C5 /* Build configuration list for PBXNativeTarget "diff_tree_cli" */;
+			buildPhases = (
+				6B1F1FC09F19410AB052A2E8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A030B9E19E043518185169C /* PBXTargetDependency */,
+				1811D517E1484255995E78CE /* PBXTargetDependency */,
+				5E3C131A378B49F988A0B073 /* PBXTargetDependency */,
+			);
+			name = diff_tree_cli;
+			productName = diff_tree_cli;
+			productReference = F6926257D5DF4C73915AE3FA /* diff_tree_cli */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14ED29BB866D47DAA2EC5F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = AED7D563B17B4DDE83109B75 /* Build configuration list for PBXProject "airbnb_P2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				761961A7D3E44CF8AB5AE29D /* Debug */,
+				59F78C6750294438B5A8B1A9 /* Release */,
+				038530BC43DC46CA890F8C9E /* MinSizeRel */,
+				AB8CE19C6B6742C4986FD5BE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DD5249934BC0488C98C46261;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				DBF95851BA0A4BA5A5A7695A /* ALL_BUILD */,
+				2E516C11522043C6AD374B83 /* Continuous */,
+				7FE0170E21DD4AE4825B9ED5 /* Experimental */,
+				1C4B10A2F38B4C6894FA0403 /* Nightly */,
+				F0F4275470C44B3BB39CB57C /* NightlyMemoryCheck */,
+				F842483B45424DF7AD3BC945 /* RUN_TESTS */,
+				09F026A7731941E2A477399B /* ZERO_CHECK */,
+				2C91B80591A84CC1BF8B1F74 /* graph */,
+				2D4901D61A47423BBA70FA7A /* diff_tree_cli */,
+				05B5458307F940B9AC9C9496 /* common */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0402B6AA648846F794C17E05 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		097DFAA7964A468D9D1D0E26 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0CAF4825DA1644DE92EE6D97 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0FC55CDE6D494E7D83255B41 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1A0F9C6C5C99428796AB44A2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/src/modules/graph -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/src/modules/graph/CMakeScripts/graph_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		240A4A574F544B3282BDBFE7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/Continuous_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4B5FCB573C234A8E952ACE35 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/NightlyMemoryCheck_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5353D23833FE413EA5C9F503 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		551AD0005E3B4FB3A0DB55B6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/Nightly_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8BEE0EF81F284E3589A50600 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BB7EC34416444F2CB19C2944 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/src/modules/utils -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/src/modules/utils/CMakeScripts/common_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CD89412E2C774D8091358D48 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EDE19AF39AED421CA490764C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F359A885AABD4235B276BE55 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/airbnb/P2/xcode/CMakeScripts/Experimental_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F909C4AF0BD54CFB9EF3639F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FADFBED47E234712B2C725AC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230110F0AD414704B876DC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2AE3941E5D4EC5BE34D32F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/lambda/lambda.cpp */,
+				6394A8BC7E8A4A8987A4FD48 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/log/logging.cpp */,
+				8B0359EE2C83426082D573E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/utils/random/distribution.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1F1FC09F19410AB052A2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A212482CE8442B8ECC06C8 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/diff_tree.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12CBBDC547C4518BCE7A746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2FFBD4458B40D396C6E44D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/graph/graph.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030EC5111AE44819A0737EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = 364E9415C5904E6488257FB9 /* PBXContainerItemProxy */;
+		};
+		13D8767A3C584DA8ACA49917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = 95F47EBDAE0F4EE0ACAB2B93 /* PBXContainerItemProxy */;
+		};
+		1811D517E1484255995E78CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C91B80591A84CC1BF8B1F74 /* graph */;
+			targetProxy = 25262728B8474B92B1200A56 /* PBXContainerItemProxy */;
+		};
+		30BDD9EBCD334859825AE85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = FD59F625E75B471C9F6BF9F3 /* PBXContainerItemProxy */;
+		};
+		32176F7925F5426397E53D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = 3F5099DF037B497A8907154E /* PBXContainerItemProxy */;
+		};
+		54FD00DB577E4BA988A2AEA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = FF021C3C38684A15888BF6F0 /* PBXContainerItemProxy */;
+		};
+		596D37DDF8754472BC06C7E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4901D61A47423BBA70FA7A /* diff_tree_cli */;
+			targetProxy = B59EC39009F746289A5DDE69 /* PBXContainerItemProxy */;
+		};
+		5E3C131A378B49F988A0B073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B5458307F940B9AC9C9496 /* common */;
+			targetProxy = 6D9CB8D45D9D464CA0CA8C17 /* PBXContainerItemProxy */;
+		};
+		628E30EB9E6641D9A4A3F2C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B5458307F940B9AC9C9496 /* common */;
+			targetProxy = 9756966ED8754665BFAECB49 /* PBXContainerItemProxy */;
+		};
+		72EE1987BFF343109C8F7E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B5458307F940B9AC9C9496 /* common */;
+			targetProxy = 99A0FEB26A5748939B244A50 /* PBXContainerItemProxy */;
+		};
+		8A030B9E19E043518185169C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = 5338E7B9F056417BBF4520D4 /* PBXContainerItemProxy */;
+		};
+		ACA2297531FB47229048F794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = F7D12E0458C14E759AA29079 /* PBXContainerItemProxy */;
+		};
+		EE8B45B29AED49CD8A970A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F026A7731941E2A477399B /* ZERO_CHECK */;
+			targetProxy = 70B499AAFA9D45A1828D82FA /* PBXContainerItemProxy */;
+		};
+		FB4E6832F3944BDE823BC96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C91B80591A84CC1BF8B1F74 /* graph */;
+			targetProxy = 57224537E38F444DA2F2FBE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0269347D6BDC44DBAAC3B769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		131DCEF449FC42FCA9D99FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		132B33083B0D4C6BBD16D6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		162072380E004106B35D198C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		16F05A8E975541B0A6FF7577 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		1A77E99A64D1417EBF509E0E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1A8E2438A66A432FA2C2B54D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1CEFE6CF28784456983850E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2A1ED521B0D84BBBB6DECE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = diff_tree_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2F972DC56234400CB5EC95BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		341BC1892F944788B723D6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		357B6018D6B04ABD8C4BBEDC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3C02132B02EB428293DB9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3FC5CBEE5B774D48A8E0EFEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		46AF4E797BF74EF2BB3B01F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4CB35E6F583F4CDE9A1B9B6E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		51BDA01B53464D20B8312CC8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		54EC1FBDC39340808CE09118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		798A26E30FE74A28A32AA36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7A9F846C91B344AEB45B6D69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		89D37B83484C44899F286372 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = diff_tree_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		90C5503C37D749AC9AE383CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		998996ECE1E144C3A5CCFC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/build";
+			};
+			name = Release;
+		};
+		99B3F0FD6F7443A099FE4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9C9545D5DC9B4827AA4A1C84 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D1352B104EC4DBB9E53E3F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D9632EF88724822AAB28CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A219F662C7C34745B0415FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = diff_tree_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AB53D555FFEB41DE83FCEA1C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B000599E525849F6B57715FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B2C1430855F04F7498836652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BDE1C7360BF8438E952428BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C2C442FF0CF04BC2B70671B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C3E2374CD315406C84690669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Debug";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D09AD6F3D86D4CCBB60F67C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/build";
+			};
+			name = Debug;
+		};
+		D1AD7D4C78C74B7F9FC9A584 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D22325222BF745AAB388CF7A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = diff_tree_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D8FBA4F2A0684CEAAB721837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/Release/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DA475F7A015B49D58457C9A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC7A8832B1674F39A0A615FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DF5CE7B8A9394F9FBFE08306 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/MinSizeRel/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F34BE903E9944DB2AC1A0EE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3A6F8F65A0145209CD799D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/lib/RelWithDebInfo/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB8AAEF77C1C458282484A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/airbnb/P2/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06FC905BB64C485CA73D434D /* Build configuration list for PBXAggregateTarget "Nightly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0269347D6BDC44DBAAC3B769 /* Debug */,
+				54EC1FBDC39340808CE09118 /* Release */,
+				F34BE903E9944DB2AC1A0EE5 /* MinSizeRel */,
+				D1AD7D4C78C74B7F9FC9A584 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18BFFB2E36CE4E3984C5C45A /* Build configuration list for PBXNativeTarget "common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E2374CD315406C84690669 /* Debug */,
+				9D9632EF88724822AAB28CFE /* Release */,
+				1A77E99A64D1417EBF509E0E /* MinSizeRel */,
+				162072380E004106B35D198C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1BAD58184C2B4FEC8C5743BB /* Build configuration list for PBXAggregateTarget "Experimental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B3F0FD6F7443A099FE4DE3 /* Debug */,
+				132B33083B0D4C6BBD16D6F1 /* Release */,
+				51BDA01B53464D20B8312CC8 /* MinSizeRel */,
+				357B6018D6B04ABD8C4BBEDC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36593CC5B48447D394C326F3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C442FF0CF04BC2B70671B9 /* Debug */,
+				90C5503C37D749AC9AE383CB /* Release */,
+				9C9545D5DC9B4827AA4A1C84 /* MinSizeRel */,
+				DA475F7A015B49D58457C9A5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72B73CBFE96242F0A62320A1 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C1430855F04F7498836652 /* Debug */,
+				3C02132B02EB428293DB9CC1 /* Release */,
+				9D1352B104EC4DBB9E53E3F7 /* MinSizeRel */,
+				4CB35E6F583F4CDE9A1B9B6E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FE7C5D06B20442D9A067FEF /* Build configuration list for PBXAggregateTarget "Continuous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEFE6CF28784456983850E0 /* Debug */,
+				FB8AAEF77C1C458282484A43 /* Release */,
+				1A8E2438A66A432FA2C2B54D /* MinSizeRel */,
+				B000599E525849F6B57715FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A05461890B704A63BEEF92C5 /* Build configuration list for PBXNativeTarget "diff_tree_cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219F662C7C34745B0415FBE /* Debug */,
+				2A1ED521B0D84BBBB6DECE44 /* Release */,
+				D22325222BF745AAB388CF7A /* MinSizeRel */,
+				89D37B83484C44899F286372 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC1BD8A6FF084E618DB2C8F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798A26E30FE74A28A32AA36E /* Debug */,
+				2F972DC56234400CB5EC95BC /* Release */,
+				BDE1C7360BF8438E952428BB /* MinSizeRel */,
+				7A9F846C91B344AEB45B6D69 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AED7D563B17B4DDE83109B75 /* Build configuration list for PBXProject "airbnb_P2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09AD6F3D86D4CCBB60F67C0 /* Debug */,
+				998996ECE1E144C3A5CCFC1D /* Release */,
+				16F05A8E975541B0A6FF7577 /* MinSizeRel */,
+				46AF4E797BF74EF2BB3B01F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB502C1928954BE8852D9A81 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341BC1892F944788B723D6B5 /* Debug */,
+				DC7A8832B1674F39A0A615FD /* Release */,
+				3FC5CBEE5B774D48A8E0EFEB /* MinSizeRel */,
+				AB53D555FFEB41DE83FCEA1C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F20F9855C75346BEBF59D5BB /* Build configuration list for PBXNativeTarget "graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131DCEF449FC42FCA9D99FA7 /* Debug */,
+				D8FBA4F2A0684CEAAB721837 /* Release */,
+				DF5CE7B8A9394F9FBFE08306 /* MinSizeRel */,
+				F3A6F8F65A0145209CD799D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14ED29BB866D47DAA2EC5F3A /* Project object */;
+}

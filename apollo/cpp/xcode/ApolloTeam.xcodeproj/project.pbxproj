@@ -1,0 +1,2488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		18CD01DF4DA54B40890F3AEB /* Continuous */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7E533FE3B364D968C171166 /* Build configuration list for PBXAggregateTarget "Continuous" */;
+			buildPhases = (
+				EE738FDE1490411B91000D35 /* CMake Rules */,
+			);
+			dependencies = (
+				47F5850CB08844728CE6D767 /* PBXTargetDependency */,
+			);
+			name = Continuous;
+			productName = Continuous;
+		};
+		426A708115854AB0AE67795E /* Experimental */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30925D2A067D4BFC86657CA1 /* Build configuration list for PBXAggregateTarget "Experimental" */;
+			buildPhases = (
+				0826931337284B87B190728E /* CMake Rules */,
+			);
+			dependencies = (
+				2C2439F63AE64CF5BDF71AB8 /* PBXTargetDependency */,
+			);
+			name = Experimental;
+			productName = Experimental;
+		};
+		80F318AB7E794CEBA1A760D3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30ECDF368AD94A70BFB266BC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				9E500D781B194F9AA4C7FFC0 /* CMake Rules */,
+			);
+			dependencies = (
+				13719877419E4FEA84D27421 /* PBXTargetDependency */,
+				7ED6F6FA898A46BF9927FDCD /* PBXTargetDependency */,
+				658713ADC9B04C3BB52E0FDD /* PBXTargetDependency */,
+				52795A31C810483AAE93A68F /* PBXTargetDependency */,
+				4C57B29F2C0B406ABD6B0266 /* PBXTargetDependency */,
+				D178EF0852B34E1A9CF13B63 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9EC67980B76A4DB286B2051E /* Nightly */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBF08FBA396043CA97056CC0 /* Build configuration list for PBXAggregateTarget "Nightly" */;
+			buildPhases = (
+				F726C35F40A7499B9C32A8CC /* CMake Rules */,
+			);
+			dependencies = (
+				55E9E8C3CA97446E96AAE27B /* PBXTargetDependency */,
+			);
+			name = Nightly;
+			productName = Nightly;
+		};
+		A809C9B99E724FEC9AD74F02 /* NightlyMemoryCheck */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04196E6EDAF84763A7E3DEE0 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */;
+			buildPhases = (
+				D82BB063E85044388887A19B /* CMake Rules */,
+			);
+			dependencies = (
+				4FE4A1A546134F2FBC88039C /* PBXTargetDependency */,
+			);
+			name = NightlyMemoryCheck;
+			productName = NightlyMemoryCheck;
+		};
+		C67B6B94D81C44A981DB32BC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAA8823F4A2A469A969B9E7E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4F788AB0B83D4D58BD93FC94 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F8722DD40BBB4573A0B78A68 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E8BE5BA372444A5C809CD761 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				D7EA8D9F2FF74630AC6AAC9A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D1BCCBDF02F4693BD293367 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.hpp */ = {isa = PBXBuildFile; fileRef = B6E04FCC46E6477787615BC3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.hpp */; };
+		14A533B54CEC4B2AB4E7FA41 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.hpp */ = {isa = PBXBuildFile; fileRef = A1391A894535473F967EE338 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.hpp */; };
+		1BD26966E4AA4EB4815833A6 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.cpp */ = {isa = PBXBuildFile; fileRef = D3BD8EEF781341748596311E /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.cpp */; };
+		30D901BADDD342659D67CE36 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.hpp */ = {isa = PBXBuildFile; fileRef = 20A7C42CF73C41E2BF8886AD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.hpp */; };
+		323ADD849A36421C83489791 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 44E2E702B7D443C4B06786DC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/CMakeLists.txt */; };
+		3291A12606274482B0F01EB5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7D19EEE1AAE04829B261F562 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */; };
+		34C3B520BB4D4540A335B416 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6A756ACC8DDB4907BD82B8C6 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/CMakeLists.txt */; };
+		3807174B597F4BFC90AED428 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/api.h */ = {isa = PBXBuildFile; fileRef = B4E895828E084BE6BAE3F1A4 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/api.h */; };
+		3FE142BEDC784202A7714C8D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.cc */ = {isa = PBXBuildFile; fileRef = F3C6B1E4E9614E71A2A771E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.cc */; };
+		56785D28B9604C2C9D2ACDBA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/linear_scanning_cli.cpp */ = {isa = PBXBuildFile; fileRef = 34B9BB867F204A9498199F0A /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/linear_scanning_cli.cpp */; };
+		582EC7494DFA4E8980B9A6FE /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.hpp */ = {isa = PBXBuildFile; fileRef = 1742163E995B4F82BB1CF229 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.hpp */; };
+		5BA6E31F8D784B8F8231866D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.cpp */ = {isa = PBXBuildFile; fileRef = 2E0FCF5E5E544C28B061FD99 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.cpp */; };
+		622AFCD6F0BC4134B9018751 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.hpp */ = {isa = PBXBuildFile; fileRef = 3C494BCA35B944A59A39304F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.hpp */; };
+		67E80162AD5D4CE9B6719615 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.h */ = {isa = PBXBuildFile; fileRef = 2D005F8911624ABD93987659 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.h */; };
+		698AF7B20AA84BD1A9C5575D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.cpp */ = {isa = PBXBuildFile; fileRef = F339DB47D85C4812B11477FD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.cpp */; };
+		8179A9767BF740F1829CF578 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.cpp */ = {isa = PBXBuildFile; fileRef = 9A4BDD414F004E3A8799EE59 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.cpp */; };
+		86965DE2609345EB9D984719 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.cpp */ = {isa = PBXBuildFile; fileRef = C768BB0DF3AE4E1696CB9585 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.cpp */; };
+		87B0072C397944959EE7A36C /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.hpp */ = {isa = PBXBuildFile; fileRef = 26709459B1EF4B02BEEE53DA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.hpp */; };
+		982C0457BBC94E61A0E4547A /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.cpp */ = {isa = PBXBuildFile; fileRef = 4F1C7CA03512493FBC51FCF5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.cpp */; };
+		A0BAC42D270740B5A714014F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.h */ = {isa = PBXBuildFile; fileRef = C7D4875ABDED4049BD283667 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.h */; };
+		CA8A9ABBCA7A49648748D5AD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.cpp */ = {isa = PBXBuildFile; fileRef = 5760423BB71F4C9EA2A0E896 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.cpp */; };
+		DCBA002C73444E35BFD69A5C /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7D2A406FF1E24D1086A5F3DB /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */; };
+		E1FD68B265AE475F989A79CC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.cpp */ = {isa = PBXBuildFile; fileRef = 93E0E066588848F28A4CC0B2 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.cpp */; };
+		EAB6C36FFBA945CA900AB0C3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8C093B82838D481E82443CD2 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/CMakeLists.txt */; };
+		FEA99C611DF64411A143B134 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.hpp */ = {isa = PBXBuildFile; fileRef = DCC217FE9A5643FAA27E43E5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		37F1292678A546F6A3755C38 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7C6279D668504DF0A5AA20D0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		847FDD9F9DBF43998D094C86 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9EEE867023A9448685F3AAAE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B0CAA34A582044ADBE7A1CDF = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08C00E65A22C45399E317EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0823D4E6F2B4C34BECFB9A6;
+			remoteInfo = common;
+		};
+		1DBEADE8C12D4789967A2D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		250E303BB76C48F3A8E75FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E33401F1D7B45D6B285EA80;
+			remoteInfo = graph;
+		};
+		29841B91D9F54F25A30FFA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		3622E9669A924E40B07BF32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D27B6C3631E4CA09B301570;
+			remoteInfo = find_path_cli;
+		};
+		377398F99B054A92A94511B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		3CE2C3C6DDBA43118653C0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		46F447E3379B4B1586A85914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		6F5E7B6082224B36988BB3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0823D4E6F2B4C34BECFB9A6;
+			remoteInfo = common;
+		};
+		7849C6AAC1914A8F948E9928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		7B6C3742E3684B4587BD2021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0823D4E6F2B4C34BECFB9A6;
+			remoteInfo = common;
+		};
+		852D199E26304CC79F30C2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		8D7B6D56FAA24D079486F6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0823D4E6F2B4C34BECFB9A6;
+			remoteInfo = common;
+		};
+		9FEAD94CF796414382B41A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E33401F1D7B45D6B285EA80;
+			remoteInfo = graph;
+		};
+		A330D7F2C6D54413A37F3A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		A9C80963642C4DBAB2972CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A09886B2D954AACA7B3C5BF;
+			remoteInfo = glviewer;
+		};
+		BA8698B0788147DF8A3A3EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F896F5CD7F845F39BB45A0F;
+			remoteInfo = linear_scanning_cli;
+		};
+		BEFA8054464A43359DACDFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		BF7638897C484DF081B0C470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67B6B94D81C44A981DB32BC;
+			remoteInfo = ZERO_CHECK;
+		};
+		FD932E30759742D0B748B377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2900472C25D4F31AACC4D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E33401F1D7B45D6B285EA80;
+			remoteInfo = graph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1742163E995B4F82BB1CF229 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = distribution.hpp; path = src/modules/utils/random/distribution.hpp; sourceTree = SOURCE_ROOT; };
+		20A7C42CF73C41E2BF8886AD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = linear_scanning.hpp; path = src/modules/solutions/algorithms/linear_scanning.hpp; sourceTree = SOURCE_ROOT; };
+		26709459B1EF4B02BEEE53DA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = viewer.hpp; path = src/modules/gl/viewer.hpp; sourceTree = SOURCE_ROOT; };
+		2D005F8911624ABD93987659 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IMPROVED_MESH.h; path = src/modules/gl/IMPROVED_MESH.h; sourceTree = SOURCE_ROOT; };
+		2E0FCF5E5E544C28B061FD99 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = src/modules/gl/viewer.cpp; sourceTree = SOURCE_ROOT; };
+		34B9BB867F204A9498199F0A /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/linear_scanning_cli.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linear_scanning_cli.cpp; path = src/modules/solutions/linear_scanning_cli.cpp; sourceTree = SOURCE_ROOT; };
+		3C494BCA35B944A59A39304F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MeshViewer.hpp; path = src/modules/gl/MeshViewer.hpp; sourceTree = SOURCE_ROOT; };
+		414B413F271A4ABAB658A5BE /* find_path_cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = find_path_cli; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E2E702B7D443C4B06786DC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/utils/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4F1C7CA03512493FBC51FCF5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = distribution.cpp; path = src/modules/utils/random/distribution.cpp; sourceTree = SOURCE_ROOT; };
+		5760423BB71F4C9EA2A0E896 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MeshViewer.cpp; path = src/modules/gl/MeshViewer.cpp; sourceTree = SOURCE_ROOT; };
+		5E0BE6DAE4A34EDFB16E1224 /* linear_scanning_cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = linear_scanning_cli; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A756ACC8DDB4907BD82B8C6 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/graph/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76ED1AB0E4484E45B30C1552 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7758AF64553E4AFDB1885696 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7D19EEE1AAE04829B261F562 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/solutions/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7D2A406FF1E24D1086A5F3DB /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/solutions/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8A5B9BE1F3EB47E9A2F3114B /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8C093B82838D481E82443CD2 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/modules/gl/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9014ED5BD6E042EEB856D804 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		93E0E066588848F28A4CC0B2 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = find_path.cpp; path = src/modules/solutions/find_path.cpp; sourceTree = SOURCE_ROOT; };
+		9A4BDD414F004E3A8799EE59 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lambda.cpp; path = src/modules/utils/lambda/lambda.cpp; sourceTree = SOURCE_ROOT; };
+		9F6B700A19BB457B88CA700E /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A1391A894535473F967EE338 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = logging.hpp; path = src/modules/utils/log/logging.hpp; sourceTree = SOURCE_ROOT; };
+		A6C4F80154EB4FECA2C0E7BB /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4E895828E084BE6BAE3F1A4 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = api.h; path = src/modules/utils/api.h; sourceTree = SOURCE_ROOT; };
+		B6E04FCC46E6477787615BC3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lambda.hpp; path = src/modules/utils/lambda/lambda.hpp; sourceTree = SOURCE_ROOT; };
+		C408D074D7384BD1A484335F /* graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libgraph.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C768BB0DF3AE4E1696CB9585 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IMPROVED_MESH.cpp; path = src/modules/gl/IMPROVED_MESH.cpp; sourceTree = SOURCE_ROOT; };
+		C7D4875ABDED4049BD283667 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = src/modules/graph/graph.h; sourceTree = SOURCE_ROOT; };
+		D3BD8EEF781341748596311E /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linear_scanning.cpp; path = src/modules/solutions/algorithms/linear_scanning.cpp; sourceTree = SOURCE_ROOT; };
+		DCC217FE9A5643FAA27E43E5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = find_path.hpp; path = src/modules/solutions/find_path.hpp; sourceTree = SOURCE_ROOT; };
+		E33E63FFC3574073BBC86A7E /* glviewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglviewer.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F339DB47D85C4812B11477FD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logging.cpp; path = src/modules/utils/log/logging.cpp; sourceTree = SOURCE_ROOT; };
+		F3C6B1E4E9614E71A2A771E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cc; path = src/modules/graph/graph.cc; sourceTree = SOURCE_ROOT; };
+		F8D1AD7D5B624BF38A219197 /* common */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcommon.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A4F21931058405F9B14F82B /* Continuous */ = {
+			isa = PBXGroup;
+			children = (
+				EC36F8745F25422F8ABDDB79 /* CMake Rules */,
+				76ED1AB0E4484E45B30C1552 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */,
+			);
+			name = Continuous;
+			sourceTree = "<group>";
+		};
+		0C35E533847247C982D2E8DE /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				9F5FF09BD8F044F0961473C1 /* Header Files */,
+				4F17783993484839A5D66979 /* Source Files */,
+				6A756ACC8DDB4907BD82B8C6 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/CMakeLists.txt */,
+			);
+			name = graph;
+			sourceTree = "<group>";
+		};
+		0C96A68178C4488B8330C875 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4E895828E084BE6BAE3F1A4 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/api.h */,
+				B6E04FCC46E6477787615BC3 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.hpp */,
+				A1391A894535473F967EE338 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.hpp */,
+				1742163E995B4F82BB1CF229 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		114348335AB14355A1DAB5AF /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0C96A68178C4488B8330C875 /* Header Files */,
+				1D100226182B4E72B19A08ED /* Source Files */,
+				44E2E702B7D443C4B06786DC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/CMakeLists.txt */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		196EB667390A4D47AD0A3C35 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C768BB0DF3AE4E1696CB9585 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.cpp */,
+				5760423BB71F4C9EA2A0E896 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.cpp */,
+				2E0FCF5E5E544C28B061FD99 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		19CB5387F9314212A6BEA5A6 = {
+			isa = PBXGroup;
+			children = (
+				A3009F50A77B450FB89C1F90 /* Sources */,
+				473812B36BE646249F0D7155 /* Resources */,
+				6B2B240FA2944327B7357C40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D100226182B4E72B19A08ED /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BDD414F004E3A8799EE59 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.cpp */,
+				F339DB47D85C4812B11477FD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.cpp */,
+				4F1C7CA03512493FBC51FCF5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		23C0B27DDB374BACB4C556CB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BD8EEF781341748596311E /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.cpp */,
+				34B9BB867F204A9498199F0A /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/linear_scanning_cli.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2474D13ADC32483F9366AE87 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2E3D420FBF3643569BA686B0 /* NightlyMemoryCheck */ = {
+			isa = PBXGroup;
+			children = (
+				2474D13ADC32483F9366AE87 /* CMake Rules */,
+				7758AF64553E4AFDB1885696 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */,
+			);
+			name = NightlyMemoryCheck;
+			sourceTree = "<group>";
+		};
+		3170F0A33CA14ADAA937E9C6 /* linear_scanning_cli */ = {
+			isa = PBXGroup;
+			children = (
+				23C0B27DDB374BACB4C556CB /* Source Files */,
+				62F1C6C2361F4B439BFBF506 /* Header Files */,
+				7D2A406FF1E24D1086A5F3DB /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */,
+			);
+			name = linear_scanning_cli;
+			sourceTree = "<group>";
+		};
+		3F39D613CF8C431387136FC4 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				C2155BA7F7FD49F1860356C8 /* CMake Rules */,
+				A6C4F80154EB4FECA2C0E7BB /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */,
+			);
+			name = Experimental;
+			sourceTree = "<group>";
+		};
+		449A320215284C6CABE7B350 /* find_path_cli */ = {
+			isa = PBXGroup;
+			children = (
+				88CFEC0D48734105B06A5C39 /* Header Files */,
+				CF4DC6E17F3C4D689055FC9E /* Source Files */,
+				7D19EEE1AAE04829B261F562 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/CMakeLists.txt */,
+			);
+			name = find_path_cli;
+			sourceTree = "<group>";
+		};
+		473812B36BE646249F0D7155 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D17BFC7BE8248E6B56E60DA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C214CF683249488FB94D00BE /* CMake Rules */,
+				9F6B700A19BB457B88CA700E /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4F17783993484839A5D66979 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C6B1E4E9614E71A2A771E9 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		62F1C6C2361F4B439BFBF506 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A7C42CF73C41E2BF8886AD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6B2B240FA2944327B7357C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C408D074D7384BD1A484335F /* graph */,
+				414B413F271A4ABAB658A5BE /* find_path_cli */,
+				5E0BE6DAE4A34EDFB16E1224 /* linear_scanning_cli */,
+				F8D1AD7D5B624BF38A219197 /* common */,
+				E33E63FFC3574073BBC86A7E /* glviewer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737E21A1B7B1454E8CBC1744 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7E14E099E94E49759A2F08DC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D005F8911624ABD93987659 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.h */,
+				3C494BCA35B944A59A39304F /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.hpp */,
+				26709459B1EF4B02BEEE53DA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		88CFEC0D48734105B06A5C39 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC217FE9A5643FAA27E43E5 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9F5FF09BD8F044F0961473C1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D4875ABDED4049BD283667 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A3009F50A77B450FB89C1F90 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C04348CB6AB448E88C21BCBC /* CTestDashboardTargets */,
+				4D17BFC7BE8248E6B56E60DA /* ALL_BUILD */,
+				E8E5BCF285684F5B88D34248 /* ZERO_CHECK */,
+				0C35E533847247C982D2E8DE /* graph */,
+				3170F0A33CA14ADAA937E9C6 /* linear_scanning_cli */,
+				449A320215284C6CABE7B350 /* find_path_cli */,
+				114348335AB14355A1DAB5AF /* common */,
+				F6603A0AEA1A47FEA245BE02 /* glviewer */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C04348CB6AB448E88C21BCBC /* CTestDashboardTargets */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D420FBF3643569BA686B0 /* NightlyMemoryCheck */,
+				F1A30FADD37943248633E41E /* Nightly */,
+				0A4F21931058405F9B14F82B /* Continuous */,
+				3F39D613CF8C431387136FC4 /* Experimental */,
+			);
+			name = CTestDashboardTargets;
+			sourceTree = "<group>";
+		};
+		C214CF683249488FB94D00BE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C2155BA7F7FD49F1860356C8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CA428BD0AA9A44699A3A7AEF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CF4DC6E17F3C4D689055FC9E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E0E066588848F28A4CC0B2 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E8E5BCF285684F5B88D34248 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				CA428BD0AA9A44699A3A7AEF /* CMake Rules */,
+				8A5B9BE1F3EB47E9A2F3114B /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		EC36F8745F25422F8ABDDB79 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F1A30FADD37943248633E41E /* Nightly */ = {
+			isa = PBXGroup;
+			children = (
+				737E21A1B7B1454E8CBC1744 /* CMake Rules */,
+				9014ED5BD6E042EEB856D804 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/CMakeLists.txt */,
+			);
+			name = Nightly;
+			sourceTree = "<group>";
+		};
+		F6603A0AEA1A47FEA245BE02 /* glviewer */ = {
+			isa = PBXGroup;
+			children = (
+				7E14E099E94E49759A2F08DC /* Header Files */,
+				196EB667390A4D47AD0A3C35 /* Source Files */,
+				8C093B82838D481E82443CD2 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/CMakeLists.txt */,
+			);
+			name = glviewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F896F5CD7F845F39BB45A0F /* linear_scanning_cli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1439F64B34437ABA28C1AD /* Build configuration list for PBXNativeTarget "linear_scanning_cli" */;
+			buildPhases = (
+				04F40A4E3ECE4E35BDBD3D38 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0F1E19218A4B3EACC20FD1 /* PBXTargetDependency */,
+				A716494A06934C9EA09B260C /* PBXTargetDependency */,
+				02BD4A89CC6E4906A99C18AC /* PBXTargetDependency */,
+			);
+			name = linear_scanning_cli;
+			productName = linear_scanning_cli;
+			productReference = 5E0BE6DAE4A34EDFB16E1224 /* linear_scanning_cli */;
+			productType = "com.apple.product-type.tool";
+		};
+		6E33401F1D7B45D6B285EA80 /* graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B09D782C984BB9BCDB3C1C /* Build configuration list for PBXNativeTarget "graph" */;
+			buildPhases = (
+				C1082BE1D4DC4C699A595627 /* Sources */,
+				936AE5AD34924E4F9544BA4D /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C19EE1FF7040E680C3402E /* PBXTargetDependency */,
+				6B025248FB904659821E86AD /* PBXTargetDependency */,
+			);
+			name = graph;
+			productName = graph;
+			productReference = C408D074D7384BD1A484335F /* graph */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		7A09886B2D954AACA7B3C5BF /* glviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1763090629BE46F18CF40A9A /* Build configuration list for PBXNativeTarget "glviewer" */;
+			buildPhases = (
+				0DD4354F0D75442AB8D7DAF5 /* Sources */,
+				AF079451C66D4C6AB6287609 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482278E18AC04945B92D74D7 /* PBXTargetDependency */,
+			);
+			name = glviewer;
+			productName = glviewer;
+			productReference = E33E63FFC3574073BBC86A7E /* glviewer */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		7D27B6C3631E4CA09B301570 /* find_path_cli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717B287E132943279A15D63E /* Build configuration list for PBXNativeTarget "find_path_cli" */;
+			buildPhases = (
+				7A50F9A21F5B4DAE96265D9C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C5E0DBE13A48B8911D612C /* PBXTargetDependency */,
+				3CD702EDA3324FB6904A4C46 /* PBXTargetDependency */,
+				014BF9DE12464DAA9ED5EF0F /* PBXTargetDependency */,
+			);
+			name = find_path_cli;
+			productName = find_path_cli;
+			productReference = 414B413F271A4ABAB658A5BE /* find_path_cli */;
+			productType = "com.apple.product-type.tool";
+		};
+		A0823D4E6F2B4C34BECFB9A6 /* common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7B536FD4144D8996218603 /* Build configuration list for PBXNativeTarget "common" */;
+			buildPhases = (
+				B82BE1E501364569AFFFB51D /* Sources */,
+				2E354B564E3C45E2A1D051CD /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0927FE950DDB4FFDB35397E8 /* PBXTargetDependency */,
+			);
+			name = common;
+			productName = common;
+			productReference = F8D1AD7D5B624BF38A219197 /* common */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2900472C25D4F31AACC4D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = 2127BA37B5AE4A8BAA87A8BB /* Build configuration list for PBXProject "ApolloTeam" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				847FDD9F9DBF43998D094C86 /* Debug */,
+				7C6279D668504DF0A5AA20D0 /* Release */,
+				9EEE867023A9448685F3AAAE /* MinSizeRel */,
+				37F1292678A546F6A3755C38 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 19CB5387F9314212A6BEA5A6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				80F318AB7E794CEBA1A760D3 /* ALL_BUILD */,
+				18CD01DF4DA54B40890F3AEB /* Continuous */,
+				426A708115854AB0AE67795E /* Experimental */,
+				9EC67980B76A4DB286B2051E /* Nightly */,
+				A809C9B99E724FEC9AD74F02 /* NightlyMemoryCheck */,
+				F8722DD40BBB4573A0B78A68 /* RUN_TESTS */,
+				C67B6B94D81C44A981DB32BC /* ZERO_CHECK */,
+				6E33401F1D7B45D6B285EA80 /* graph */,
+				7D27B6C3631E4CA09B301570 /* find_path_cli */,
+				4F896F5CD7F845F39BB45A0F /* linear_scanning_cli */,
+				A0823D4E6F2B4C34BECFB9A6 /* common */,
+				7A09886B2D954AACA7B3C5BF /* glviewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0826931337284B87B190728E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/Experimental_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2E354B564E3C45E2A1D051CD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/src/modules/utils -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/src/modules/utils/CMakeScripts/common_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4F788AB0B83D4D58BD93FC94 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		56A08FDC04C641949848524B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		73E19F525A2E48A6893460F4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		83AE7C0787234AE9BC69CE65 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		936AE5AD34924E4F9544BA4D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/src/modules/graph -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/src/modules/graph/CMakeScripts/graph_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		99E04DC401074DC08A276D71 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9E500D781B194F9AA4C7FFC0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9EFB7651505943D1B7C0894C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AF079451C66D4C6AB6287609 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/src/modules/gl -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/src/modules/gl/CMakeScripts/glviewer_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C4A01924B8134F958E23224B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CCAFC3D027FE410A8495012F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D7EA8D9F2FF74630AC6AAC9A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D82BB063E85044388887A19B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/NightlyMemoryCheck_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EE738FDE1490411B91000D35 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/Continuous_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F726C35F40A7499B9C32A8CC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode -f /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard\\ Code\\ Interview/apollo/cpp/xcode/CMakeScripts/Nightly_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F40A4E3ECE4E35BDBD3D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD26966E4AA4EB4815833A6 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/algorithms/linear_scanning.cpp */,
+				56785D28B9604C2C9D2ACDBA /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/linear_scanning_cli.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD4354F0D75442AB8D7DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86965DE2609345EB9D984719 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/IMPROVED_MESH.cpp */,
+				CA8A9ABBCA7A49648748D5AD /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/MeshViewer.cpp */,
+				5BA6E31F8D784B8F8231866D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/gl/viewer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A50F9A21F5B4DAE96265D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FD68B265AE475F989A79CC /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/find_path.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BE1E501364569AFFFB51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8179A9767BF740F1829CF578 /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/lambda/lambda.cpp */,
+				698AF7B20AA84BD1A9C5575D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/log/logging.cpp */,
+				982C0457BBC94E61A0E4547A /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/utils/random/distribution.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1082BE1D4DC4C699A595627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE142BEDC784202A7714C8D /* /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/graph/graph.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		014BF9DE12464DAA9ED5EF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0823D4E6F2B4C34BECFB9A6 /* common */;
+			targetProxy = 8D7B6D56FAA24D079486F6B9 /* PBXContainerItemProxy */;
+		};
+		02BD4A89CC6E4906A99C18AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0823D4E6F2B4C34BECFB9A6 /* common */;
+			targetProxy = 08C00E65A22C45399E317EE9 /* PBXContainerItemProxy */;
+		};
+		0927FE950DDB4FFDB35397E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 852D199E26304CC79F30C2A2 /* PBXContainerItemProxy */;
+		};
+		13719877419E4FEA84D27421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 29841B91D9F54F25A30FFA2C /* PBXContainerItemProxy */;
+		};
+		28C19EE1FF7040E680C3402E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = A330D7F2C6D54413A37F3A8C /* PBXContainerItemProxy */;
+		};
+		2C2439F63AE64CF5BDF71AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 1DBEADE8C12D4789967A2D70 /* PBXContainerItemProxy */;
+		};
+		3CD702EDA3324FB6904A4C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E33401F1D7B45D6B285EA80 /* graph */;
+			targetProxy = 9FEAD94CF796414382B41A6A /* PBXContainerItemProxy */;
+		};
+		47F5850CB08844728CE6D767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = BEFA8054464A43359DACDFE2 /* PBXContainerItemProxy */;
+		};
+		482278E18AC04945B92D74D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 7849C6AAC1914A8F948E9928 /* PBXContainerItemProxy */;
+		};
+		4C57B29F2C0B406ABD6B0266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0823D4E6F2B4C34BECFB9A6 /* common */;
+			targetProxy = 6F5E7B6082224B36988BB3E6 /* PBXContainerItemProxy */;
+		};
+		4FE4A1A546134F2FBC88039C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 46F447E3379B4B1586A85914 /* PBXContainerItemProxy */;
+		};
+		52795A31C810483AAE93A68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D27B6C3631E4CA09B301570 /* find_path_cli */;
+			targetProxy = 3622E9669A924E40B07BF32E /* PBXContainerItemProxy */;
+		};
+		55E9E8C3CA97446E96AAE27B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = BF7638897C484DF081B0C470 /* PBXContainerItemProxy */;
+		};
+		658713ADC9B04C3BB52E0FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F896F5CD7F845F39BB45A0F /* linear_scanning_cli */;
+			targetProxy = BA8698B0788147DF8A3A3EB0 /* PBXContainerItemProxy */;
+		};
+		6B025248FB904659821E86AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0823D4E6F2B4C34BECFB9A6 /* common */;
+			targetProxy = 7B6C3742E3684B4587BD2021 /* PBXContainerItemProxy */;
+		};
+		7ED6F6FA898A46BF9927FDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E33401F1D7B45D6B285EA80 /* graph */;
+			targetProxy = FD932E30759742D0B748B377 /* PBXContainerItemProxy */;
+		};
+		A716494A06934C9EA09B260C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E33401F1D7B45D6B285EA80 /* graph */;
+			targetProxy = 250E303BB76C48F3A8E75FE4 /* PBXContainerItemProxy */;
+		};
+		D178EF0852B34E1A9CF13B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A09886B2D954AACA7B3C5BF /* glviewer */;
+			targetProxy = A9C80963642C4DBAB2972CB4 /* PBXContainerItemProxy */;
+		};
+		D2C5E0DBE13A48B8911D612C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 3CE2C3C6DDBA43118653C0EF /* PBXContainerItemProxy */;
+		};
+		ED0F1E19218A4B3EACC20FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67B6B94D81C44A981DB32BC /* ZERO_CHECK */;
+			targetProxy = 377398F99B054A92A94511B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019D673AB9394BA0BDB6D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0484FC9DB75F4606979BAEC9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		05D27BC2AF04481FB2803E5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		093ACCF68BE94A9EA21FC466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0A7C587E34624E5DB3108708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		107BA9D1E4104A66BEED7B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		155BB9815944411F914E3DB0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = linear_scanning_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		19D6E4FAD1A44591B7FC1D4E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1AE5FC3C4A8648C7B8865F0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1C02841F8E734EDB9827B2E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		23ABBAE57AA24C8DBD2867B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2646A094DA684C94A14B4CBB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2AAAAFD615CD496391DB4C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/build";
+			};
+			name = Release;
+		};
+		2AEA8F9F2DD54560AC84F588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2F51C0FD7F3342AAB984818F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2F6AC3F8D748472FBB3BCE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		34E9EC309009437C92AA8EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3575D2CF2AD046F0A7B1EBB4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glviewer_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/gl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3688663F4AC445C08F60517F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = find_path_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3C41C65FA153427FBAA0517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = linear_scanning_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3DDC7AEFCD664F5D853B04BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3F54DEFB3AA64D8A97453F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glviewer_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/gl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4603DECD06FD460E8F67A556 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glviewer_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/gl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		589ACBF7E4E3439695115ABB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		59C9497830F24FDE944052D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = find_path_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5AA1D2C7D0BC46F3B327EFB1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5B3C620AF9E044A890488C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5EDCD1F690BA4D68B8C836D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",glviewer_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/gl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B068439CD3F47398E8E6882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		85CE2C2C71F74C90A01F106E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		931C4A81E01F4A588B7B6312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9E578F9E315449788835E2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = linear_scanning_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A61B3029D74A441F895DB3F5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A7DE9B8FCCB2465A99533996 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = linear_scanning_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A94DCB8E77DD4FB99ACA846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B4B41BAC8A9043D3B3EA3807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B7A45DBDF61E4AD9896AFD44 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C5C974F1631D4461A1B98F5F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = find_path_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C988B85C50C74C22B3F770F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CAB36D45C3DD4E10A0022493 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CB0ED7472D2D4132A1F4AB37 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/MinSizeRel";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CD99278C07CB4E8BBBCBA2DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CEDC490F91314778959A0696 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CEF62FEE151B476EBB6F6256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/build";
+			};
+			name = Debug;
+		};
+		D121AE8935F840F093C8D2FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D17024A2970444F9840DB908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",common_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Release";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D6721E0B18D24D65843555AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D9338D03BBDD4604B4EFA634 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ECE35C43391C484A97932221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules/solutions/.\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++    '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug/libgraph.dylib\" \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/Debug/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = find_path_cli;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F010B67E50404510BC28011F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",graph_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/x86_64-linux-gnu";
+				LIBRARY_SEARCH_PATHS = " /usr/lib/x86_64-linux-gnu/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/lib/x86_64-linux-gnu";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = " -fPIC -Wall -stdlib=libc++        -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib \"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/lib/RelWithDebInfo/libcommon.dylib\" /usr/local/lib/libgflags.dylib /usr/local/lib/libglog.dylib /usr/local/lib/libglog.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = graph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/graph";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F6D482E0E23A47FE92BF5C0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FEAF2EF849D044138AAA92A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/gflags,/usr/local/include/glog,/usr/local/include,"\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/config\"","\"/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/src/modules\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04196E6EDAF84763A7E3DEE0 /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3C620AF9E044A890488C43 /* Debug */,
+				C988B85C50C74C22B3F770F7 /* Release */,
+				0484FC9DB75F4606979BAEC9 /* MinSizeRel */,
+				19D6E4FAD1A44591B7FC1D4E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1763090629BE46F18CF40A9A /* Build configuration list for PBXNativeTarget "glviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDCD1F690BA4D68B8C836D3 /* Debug */,
+				3F54DEFB3AA64D8A97453F2C /* Release */,
+				3575D2CF2AD046F0A7B1EBB4 /* MinSizeRel */,
+				4603DECD06FD460E8F67A556 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2127BA37B5AE4A8BAA87A8BB /* Build configuration list for PBXProject "ApolloTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF62FEE151B476EBB6F6256 /* Debug */,
+				2AAAAFD615CD496391DB4C1E /* Release */,
+				1C02841F8E734EDB9827B2E4 /* MinSizeRel */,
+				D121AE8935F840F093C8D2FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30925D2A067D4BFC86657CA1 /* Build configuration list for PBXAggregateTarget "Experimental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B068439CD3F47398E8E6882 /* Debug */,
+				A94DCB8E77DD4FB99ACA846E /* Release */,
+				CEDC490F91314778959A0696 /* MinSizeRel */,
+				1AE5FC3C4A8648C7B8865F0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30ECDF368AD94A70BFB266BC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019D673AB9394BA0BDB6D5B1 /* Debug */,
+				107BA9D1E4104A66BEED7B8D /* Release */,
+				D9338D03BBDD4604B4EFA634 /* MinSizeRel */,
+				5AA1D2C7D0BC46F3B327EFB1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		717B287E132943279A15D63E /* Build configuration list for PBXNativeTarget "find_path_cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE35C43391C484A97932221 /* Debug */,
+				3688663F4AC445C08F60517F /* Release */,
+				59C9497830F24FDE944052D6 /* MinSizeRel */,
+				C5C974F1631D4461A1B98F5F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7B09D782C984BB9BCDB3C1C /* Build configuration list for PBXNativeTarget "graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6721E0B18D24D65843555AB /* Debug */,
+				34E9EC309009437C92AA8EDE /* Release */,
+				B7A45DBDF61E4AD9896AFD44 /* MinSizeRel */,
+				F010B67E50404510BC28011F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7E533FE3B364D968C171166 /* Build configuration list for PBXAggregateTarget "Continuous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F51C0FD7F3342AAB984818F /* Debug */,
+				B4B41BAC8A9043D3B3EA3807 /* Release */,
+				2646A094DA684C94A14B4CBB /* MinSizeRel */,
+				F6D482E0E23A47FE92BF5C0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8BE5BA372444A5C809CD761 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CE2C2C71F74C90A01F106E /* Debug */,
+				2AEA8F9F2DD54560AC84F588 /* Release */,
+				3DDC7AEFCD664F5D853B04BE /* MinSizeRel */,
+				05D27BC2AF04481FB2803E5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED7B536FD4144D8996218603 /* Build configuration list for PBXNativeTarget "common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7C587E34624E5DB3108708 /* Debug */,
+				D17024A2970444F9840DB908 /* Release */,
+				CB0ED7472D2D4132A1F4AB37 /* MinSizeRel */,
+				A61B3029D74A441F895DB3F5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAA8823F4A2A469A969B9E7E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABBAE57AA24C8DBD2867B4 /* Debug */,
+				093ACCF68BE94A9EA21FC466 /* Release */,
+				CD99278C07CB4E8BBBCBA2DE /* MinSizeRel */,
+				CAB36D45C3DD4E10A0022493 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBF08FBA396043CA97056CC0 /* Build configuration list for PBXAggregateTarget "Nightly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931C4A81E01F4A588B7B6312 /* Debug */,
+				2F6AC3F8D748472FBB3BCE87 /* Release */,
+				FEAF2EF849D044138AAA92A2 /* MinSizeRel */,
+				589ACBF7E4E3439695115ABB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD1439F64B34437ABA28C1AD /* Build configuration list for PBXNativeTarget "linear_scanning_cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E578F9E315449788835E2EA /* Debug */,
+				3C41C65FA153427FBAA0517D /* Release */,
+				A7DE9B8FCCB2465A99533996 /* MinSizeRel */,
+				155BB9815944411F914E3DB0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2900472C25D4F31AACC4D2A /* Project object */;
+}
