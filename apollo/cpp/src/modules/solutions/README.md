@@ -3,7 +3,7 @@
 | # | Name | Solutions | Type |
 |---|------|-----------|------|
 | 1 | Find path | \ | Easy |
-| 2 | Linear Scanning Algorithm | [c++11/14](./linear_scanning_cli.cpp) | Hard | 
+| 2 | Linear Scanning Algorithm | [c++11/14](./algorithms/linear_scanning.cpp) | Hard | 
 
 #### No.1 Title: given bidirectional edges, with start point and end point, find the shortest path from the start to end. \(yiak.wy@gmail.com\)
 
