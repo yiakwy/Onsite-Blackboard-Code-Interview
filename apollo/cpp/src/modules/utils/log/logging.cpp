@@ -16,12 +16,13 @@ void init_GLog(int argc, const char** argv)
     int location = -1;
     
     C_FORMAT(buf, internal, location, "%s", LOG_DIR.c_str());
-    // fLS::FLAGS_log_dir = buf;
     google::SetLogDestination(google::GLOG_INFO, buf.c_str());
     google::SetLogDestination(google::GLOG_WARNING, buf.c_str());
     google::SetLogDestination(google::GLOG_ERROR, buf.c_str());
     // init GLog
     google::InitGoogleLogging(argv[0]);
+    fLI::FLAGS_stderrthreshold = 1; // Warning and above.
+    fLS::FLAGS_log_dir = buf;
 }
 
 char* getFormattedTime(void)

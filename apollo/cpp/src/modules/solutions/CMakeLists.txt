@@ -16,4 +16,14 @@ add_executable(linear_scanning_cli
 
 set_target_properties(linear_scanning_cli PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(linear_scanning_cli PRIVATE "./")
-target_link_libraries(linear_scanning_cli graph common)
+target_link_libraries(linear_scanning_cli common graph glviewer)
+
+add_executable(find_sum_cli
+    "find_sum.hpp"
+    "find_sum.cpp"
+    "algorithms/segment_tree.hpp"
+    "algorithms/segment_tree.cpp"
+    )
+set_target_properties(find_sum_cli PROPERTIES LINKER_LANGUAGE CXX)
+target_include_directories(find_sum_cli PRIVATE "./")
+target_link_libraries(find_sum_cli graph common)

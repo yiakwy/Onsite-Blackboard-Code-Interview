@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>find_sum_cli.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>glviewer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -118,6 +123,11 @@
 			<true/>
 		</dict>
 		<key>C67B6B94D81C44A981DB32BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E71AB672F95E43758C79855E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

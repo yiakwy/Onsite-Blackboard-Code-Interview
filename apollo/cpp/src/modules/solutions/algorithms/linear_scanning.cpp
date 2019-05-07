@@ -1,5 +1,7 @@
 #include "linear_scanning.hpp"
 
+using namespace SolutionAlgorithms;
+
 vector<Pixel2D>
 ScanlineRenderer(Polygon polygon, Window window) {
     vector<Pixel2D> populated;

@@ -33,6 +33,8 @@ using std::vector;
 
 #include <memory>
 
+namespace SolutionAlgorithms {
+
 struct Window {
     int width;
     int height;
@@ -197,12 +199,14 @@ typedef vector<Pixel2D> Polygon;
 
 /*
  COMMENT:
- First collected all of polygon edges except horizontal edges. Since we are using scanning lines, we only care about x position of an edge and use numeric differential method to compute the whole line.
+ First collect all of polygon edges except horizontal ones. Since we are using scanning lines, we only care about x position of an edge and use numeric differential method to compute the whole scanning line interiors.
  
  The intuitive thinking about why we use such method to boost , as far as I am concerned, is that as we moving scanning lines up, we can use <x = x + dx> to compute intersections which is much cheaper commpared with linear algebra.
  
  */
 vector<Pixel2D>
 ScanlineRenderer(Polygon polygon, Window window);
+
+}
 
 #endif /*linear_scanning_hpp*/

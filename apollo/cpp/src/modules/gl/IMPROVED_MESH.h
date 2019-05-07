@@ -2,6 +2,10 @@
 
 #ifndef _HALF_EDGE_DATA_STRUCTURE_H_
 #define _HALF_EDGE_DATA_STRUCTURE_H_
+/*
+namespace GL2 {
+namespace Mesh {
+*/
 
 //half-edge
 struct HE_edge;
@@ -70,4 +74,6 @@ void ReadMesh(const char * filename);
 void RenderMesh(int);
 void Constructor_N_V(void);
 void ABOX(void);
+
+// }}
 #endif

@@ -51,6 +51,13 @@
             ReferencedContainer = "container:xcode/ApolloTeam.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "#case1"
+            value = "tests/CASES/find_sum/case#1.in"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
