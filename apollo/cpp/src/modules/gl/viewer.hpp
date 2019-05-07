@@ -54,6 +54,7 @@ using std::string;
 #include "IMPROVED_MESH.h"
 #include "Camera.hpp"
 #include "FirstPersonControls.hpp"
+#include "Object.hpp"
 #include "Axis.h"
 
 #define TRANSFORM_NONE		0
@@ -213,6 +214,7 @@ public:
     virtual void SetDisplayMode() = 0;
     virtual void Setup2DCamera() = 0;
     virtual void Setup3DCamera() = 0;
+    virtual void SetScene(Scene*) = 0;
     virtual void  InitControls() = 0;
     virtual void SetLights() = 0;
     virtual void Idle() = 0;
@@ -256,6 +258,7 @@ protected:
     // @todo : TODO read camera settings from configuration file
     std::unique_ptr<PerspectiveCamera> camera;
     std::unique_ptr<TransformControl> control;
+    std::unique_ptr<Scene> scene;
     
     std::chrono::system_clock::time_point curr_;
     std::chrono::system_clock::time_point last_;
@@ -377,13 +380,26 @@ public:
     void Setup2DCamera() {
         // setup 2D camera
         glMatrixMode(GL_PROJECTION);
+        glLoadIdentity();
         gluOrtho2D(winLLx, winLLx + winLen, winLLy, winLLy + winLen);
+        /*
+        float aspect = main_window.aspect;
+        if (main_window.aspect >= 1.f) {
+            gluOrtho2D(-1.0 * aspect, 1.0 * aspect, -1.0, 1.0);
+        } else {
+            gluOrtho2D(-1.0, 1.0, -1.0 / aspect, 1.0 / aspect);
+        }
+         */
     }
     
     void Setup3DCamera() {
         camera = std::make_unique<PerspectiveCamera>(60, 1, .1, 100);
         camera->set_position(glm::vec3(15, 15, 15));
         camera->LookAt(glm::vec3(0, 0, 0));
+    }
+    
+    void SetScene(Scene* scene) override {
+        this->scene.reset(scene);
     }
     
     void Clear() override {
@@ -425,7 +441,7 @@ public:
             // setup projection
             //*
             glViewport(0, 0, w, w / main_window.aspect);
-            // Setup2DCamera();
+            Setup2DCamera();
              //*/
         }
         

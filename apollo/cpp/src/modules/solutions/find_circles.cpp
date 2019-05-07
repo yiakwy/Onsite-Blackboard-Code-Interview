@@ -72,6 +72,8 @@ int main(int argc, char** argv)
         sets[j] = -1;
         ranks[j] = 0;
     }
+    // memset(sets, -1, sizeof(int)*N);
+    // memset(ranks, 0, size(int)*N);
     
     // find circles
     for (k=0; k < N; k++) {

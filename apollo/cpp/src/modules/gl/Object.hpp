@@ -20,4 +20,11 @@ public:
     }
 };
 
+class Scene {
+public:
+    Scene() {}
+    virtual ~Scene() {}
+    
+};
+
 #endif /* Object_hpp */

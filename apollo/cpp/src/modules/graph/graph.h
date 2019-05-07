@@ -64,6 +64,17 @@ protected:
     Elem el_;
 };
 
+template<class Node>
+class Edge {
+private:
+    Node* start;
+    Node* end;
+    Edge* pair;
+    Edge* pre;
+    Edge* succ;
+    bool is_directed;
+};
+
 /*
   Adjacent Matrix
  */
@@ -87,7 +98,10 @@ public:
     
     virtual vector<Terminal<Elem>*>
     route(Terminal<Elem>* start, Terminal<Elem>* end);
-
+    
+protected:
+    int V, E;
+    Terminals<Elem> terminals;
 };
 
 template<class Elem>
