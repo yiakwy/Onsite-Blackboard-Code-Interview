@@ -1,7 +1,7 @@
 #include "Axis.h"
 #include <math.h>
 
-void drawgrid(void){
+void glprimitives::dim3::drawgrid(void){
 	glColor3f(1, 1, 1);
 	glBegin(GL_LINES);
 	for(float x = -10; x <= 10; x++){
@@ -34,7 +34,42 @@ void drawgrid(void){
 	glEnd();
 }
 
-void Drawcone(float x, float y, float z){
+void glprimitives::dim2::drawgrid(void)
+{
+    glColor3f(1, 1, 1);
+    const float width = 25;
+    glBegin(GL_LINES);
+    for(float x = -width; x <= width; x++){
+        if( x == 0 ){
+            glColor3f(0,0,0);
+            glVertex2f(x, -width);
+            glVertex2f(x, width);
+            glColor3f(1,1,1);
+        }
+        else{
+            glVertex2f(x, -width);
+            glVertex2f(x, width);
+        }
+        
+    }
+    
+    for(float z = -width; z <= width; z++){
+        if( z == 0 ){
+            glColor3f(0,0,0);
+            glVertex2f(-width, z);
+            glVertex2f(width, z);
+            glColor3f(1,1,1);
+        }
+        else{
+            glVertex2f(-width, z);
+            glVertex2f(width, z);
+        }
+        
+    }
+    glEnd();
+}
+
+void glprimitives::dim3::Drawcone(float x, float y, float z){
 	float res = 360;
 	float d = 2 * PI / 360;
 	float a = 0;
@@ -69,7 +104,7 @@ void Drawcone(float x, float y, float z){
 	glEnd();
 }
 
-void DrawCilinder(float x, float y, float z){
+void glprimitives::dim3::DrawCilinder(float x, float y, float z){
 	float res = 360;
 	float d = 2 * PI / 360;
 	float a = 0;
@@ -104,7 +139,7 @@ void DrawCilinder(float x, float y, float z){
 	glEnd();	
 }
 
-void arrow(void){
+void glprimitives::dim3::arrow(void){
 	//y
 	Drawcone(0,1,0);
 	DrawCilinder(0,1,0);
@@ -118,7 +153,7 @@ void arrow(void){
 	DrawCilinder(0,0,1);
 }
 
-void axis(void){
-	arrow();
-	drawgrid();
+void glprimitives::dim3::axis(void){
+    arrow();
+    drawgrid();
 }

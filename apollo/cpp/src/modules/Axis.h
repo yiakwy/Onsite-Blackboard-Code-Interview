@@ -16,9 +16,21 @@
 #endif
 #define PI 3.14
 
+namespace glprimitives {
+    namespace dim3 {
+        
 //method
 void drawgrid(void);
+void Drawcone(float, float, float);
+void DrawClinder(float, float, float);
 void arrow(void);
 //main function in this module
 void axis(void);
+    }
+    
+    namespace dim2 {
+// method
+void drawgrid(void);
+    }
+}
 #endif

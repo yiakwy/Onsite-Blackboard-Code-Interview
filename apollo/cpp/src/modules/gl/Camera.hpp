@@ -32,6 +32,18 @@
 #include <iostream>
 #include "Object.hpp"
 
+static glm::mat4 glmGetMat4() {
+    GLfloat mat[16];
+    glGetFloatv(GL_MODELVIEW_MATRIX, mat);
+    glm::mat4 mat0 = glm::make_mat4(mat);
+    return mat0;
+}
+
+// @todo : TODO
+static void prettyPrint(glm::mat4& mat) {
+    
+}
+
 class
 Camera : public Object3d {
 public:
@@ -57,9 +69,9 @@ public:
         // not implemented using gl3 shader programes yet, see <Renderer::OpenGL3ShaderRendererImpl>
 #else
         //*
-        glMatrixMode(GL_PROJECTION);
-        glLoadIdentity();
         glViewport(0, 0, w, h);
+        UpdateProjectionMatrix();
+        UpdateModelMatrix(viewMatrix);
          //*/
 #endif
     }
@@ -77,26 +89,10 @@ public:
         glMatrixMode(GL_MODELVIEW);
 #endif
         viewMatrix = glm::lookAt(eye, dest, up);
-        // std::cout << "viewMatrix computed from glm::lookat : " << glm::to_string(viewMatrix) << std::endl;
-        // @todo : TODO set quaternion here
-        /*
-        if (parent) {
-        
-        }
-         */
 #ifdef OPEN_GL3
         // not implemented using gl3 shader programes yet, see <Renderer::OpenGL3ShaderRendererImpl>
 #else
         glLoadMatrixf(glm::value_ptr(viewMatrix));
-        // glLoadIdentity();
-     // glMultMatrixf(glm::value_ptr(viewMatrix));
-        // gluLookAt(eye[0], eye[1], eye[2], dest[0], dest[1], dest[2], 0, 1, 0);
-        /*
-        GLfloat mat[16];
-        glGetFloatv(GL_MODELVIEW_MATRIX, mat);
-        glm::mat4 mat0 = glm::make_mat4(mat); // you could also memcpy directly
-        std::cout << "viewMatrix comptued from gluLookAt : " << glm::to_string(mat0) << std::endl;
-         */
 #endif
         return viewMatrix;
     }
@@ -114,12 +110,7 @@ public:
         // not implemented using gl3 shader programes yet, see <Renderer::OpenGL3ShaderRendererImpl>
 #else
         if (is_focused) {
-            //*
-            glLoadMatrixf(glm::value_ptr(viewMatrix * modelMatrix)); // rotate the whole world w.r.t the original state using view matrix from the camera and provided transforms
-             //*/
-            /*
             glMultMatrixf(glm::value_ptr(modelMatrix));
-             */
         }
 #endif
         
@@ -183,16 +174,6 @@ public:
         // not implemented using gl3 shader programes yet, see <Renderer::OpenGL3ShaderRendererImpl>
 #else
         glLoadMatrixf(glm::value_ptr(projectionMatrix));
-        // glLoadIdentity();
-     // glMultMatrixf(glm::value_ptr(projectionMatrix));
-        // gluPerspective(fov_, aspect_, near_, far_);
-        /*
-        GLfloat mat[16];
-        glGetFloatv(GL_PROJECTION_MATRIX, mat);
-        glm::mat4 mat0 = glm::make_mat4(mat); // you could also memcpy directly
-        std::cout << "projectionMatrix comptued from gluPerspective : " << glm::to_string(mat0) << std::endl;
-         */
-        
 #endif
     }
     

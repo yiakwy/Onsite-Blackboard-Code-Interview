@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>find_circles_cli.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>find_path_cli.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -78,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>426A708115854AB0AE67795E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E23F61F79984A569F2E46A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

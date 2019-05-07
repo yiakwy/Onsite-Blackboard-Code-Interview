@@ -24,6 +24,8 @@ add_library(glviewer SHARED
     "FirstPersonControls.cpp"
     "Renderer.hpp"
     "Renderer.cpp"
+    "Object.hpp"
+    "Object.cpp"
     "primitives/Axis.h"
     "primitives/Axis.cpp"
     )

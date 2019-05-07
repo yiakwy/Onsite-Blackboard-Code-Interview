@@ -188,16 +188,17 @@ public:
         winLen = FLAGS_winLen;
          */
         
-        is_3dmode = true;
+        is_3dmode = false;
         main_window.width = 650;
         main_window.height = 650;
+        main_window.aspect = 650 * 1.f / 650;
         Pixel2D& p = main_window.pos;
         p.x = 100;
         p.y = 100;
         main_window.name = "Glut Viewer Main Window - Yi";
         main_window.focused = true;
-        winLLx = 0.0;
-        winLLy = 0.0;
+        winLLx = -50.0;
+        winLLy = -50.0;
         winLen = 100.0;
         
     }
@@ -290,12 +291,12 @@ public:
         if (is_3dmode) {
             // setup 3D projection camera
             Setup3DCamera();
+            InitControls();
+            SetLights();
         } else {
             Setup2DCamera();
         }
         
-        InitControls();
-        SetLights();
         // Register events poll
         InitGlut();
     }
@@ -415,16 +416,17 @@ public:
             return;
         }
         
-        main_window.aspect = (float) w / (float) h;
+        // main_window.aspect = (float) w / (float) h;
         
-        // @todo : TODO this should be done in camera
-        camera->set_viewport(w, h);
         
         if (is_3dmode) {
-            Setup2DCamera();
+            camera->set_viewport(w, h);
         } else {
             // setup projection
-            Setup3DCamera();
+            //*
+            glViewport(0, 0, w, w / main_window.aspect);
+            // Setup2DCamera();
+             //*/
         }
         
         glutPostRedisplay();
@@ -438,17 +440,24 @@ public:
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
         //*
+        if (is_3dmode) {
         camera->UpdateProjectionMatrix();
         camera->LookAt(glm::vec3(0, 0, 0));
          //*/
+        
         dt = UpdateClock();
         Update(dt);
+            
+            glprimitives::dim3::axis();
+            
+            // render models from scene graph
+        } else {
+            glprimitives::dim2::drawgrid();
+            // render models from scene graph
+        }
+    
         
-        // render models
-        glPushMatrix(); // save the current matrix
-        axis();
-        glPopMatrix(); // restore to previously saved matrix
-        
+        glFlush();
         // swap the buffers and display them onto screen
         glutSwapBuffers();
     }
@@ -461,6 +470,9 @@ public:
     void OnMouseClick(int button, int state, int x, int y) override {
         // update mouse device
         mouse.state = state;
+        if (!control) {
+            return;
+        }
         if (state == GLUT_DOWN)
         {
             mouse.press_x = x; mouse.press_y = y;
@@ -481,7 +493,9 @@ public:
     void OnMouseMove(int x, int y) override {
         // update controls
         dt = UpdateClock();
+        if (control) {
         control->OnMouseMove(dt.count() * 1.0f / 1000, x, y);
+        }
     }
     
     Duration UpdateClock() {
@@ -493,7 +507,9 @@ public:
     }
     
     void Update(Duration) override {
+        if (control) {
         control->Update(dt.count() / 1000.f);
+        }
         // update objects in the scene attached to the viewer.
     }
     

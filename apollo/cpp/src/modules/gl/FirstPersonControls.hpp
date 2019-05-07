@@ -74,23 +74,7 @@ public:
         glm::mat4 rotxy = glm::rotate(rotx, glm::radians(yaw), glm::vec3(.0f, 1.0f, 0.f));
         glm::mat4 rot = glm::rotate(rotxy, glm::radians(roll), glm::vec3(.0f, .0f, 1.0f));
         modelMatrix = glm::scale(rot, glm::vec3(scale, scale, scale));
-        
-        // std::cout << "TransformMatrix is : " << glm::to_string(modelMatrix) << std::endl;
-        // std::cout << "viewMatrix * TransformMatrix is : " << glm::to_string(camera->viewMatrix * modelMatrix) << std::endl;
-        
-        /*
-        glTranslatef(x_horizontal, y_vertical, 0);
-        glRotatef(yaw, 0, 1,0);
-        glRotatef(roll, 0,0,1);
-        glScalef(scale, scale, scale);
 
-        GLfloat mat[16];
-        glGetFloatv(GL_MODELVIEW_MATRIX, mat);
-        glm::mat4 mat0 = glm::make_mat4(mat);
-    
-        std::cout << "TransformMatrix from gl transform : " << glm::to_string(mat0) << std::endl;
-         */
-        
         camera->UpdateModelMatrix(modelMatrix);
     
     }

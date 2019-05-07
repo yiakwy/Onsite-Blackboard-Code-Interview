@@ -16,8 +16,8 @@ class Renderer {
     
 };
 
-// Since OpenGL 2 is developed for immediate mode execution. Despite its or rendering pipeline, abstraction of renderer is not applicable.
-// We only implement renderer for OpenGL3 and OpenGL SE
+// Since OpenGL 2 is developed for immediate mode execution. Despite it is handy for rendering pipeline, abstraction of such a renderer is not applicable.
+// We only implement renderer for OpenGL3+ and OpenGL SE
 class
      OpenGL3ShaderRendererImpl : public Renderer {
 public:

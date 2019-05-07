@@ -27,3 +27,11 @@ add_executable(find_sum_cli
 set_target_properties(find_sum_cli PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(find_sum_cli PRIVATE "./")
 target_link_libraries(find_sum_cli graph common)
+
+add_executable(find_circles_cli
+    "find_circles.hpp"
+    "find_circles.cpp"
+    )
+set_target_properties(find_circles_cli PROPERTIES LINKER_LANGUAGE CXX)
+target_include_directories(find_circles_cli PRIVATE "./")
+target_link_libraries(find_circles_cli graph)
