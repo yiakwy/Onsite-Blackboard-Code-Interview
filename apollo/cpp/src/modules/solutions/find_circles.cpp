@@ -90,5 +90,11 @@ int main(int argc, char** argv)
     }
     
     std::cout << "find " << circles << " circles." << std::endl;
+    
+    delete sets;
+    delete ranks;
+    
+    sets = nullptr;
+    ranks = nullptr;
 
 }

@@ -35,3 +35,11 @@ add_executable(find_circles_cli
 set_target_properties(find_circles_cli PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(find_circles_cli PRIVATE "./")
 target_link_libraries(find_circles_cli graph)
+
+add_executable(quick_sort
+    "quick_sort.hpp"
+    "quick_sort.cpp"
+)
+set_target_properties(quick_sort PROPERTIES LINKER_LANGUAGE CXX)
+target_include_directories(quick_sort PRIVATE "./")
+target_link_libraries(quick_sort)
