@@ -43,3 +43,11 @@ add_executable(quick_sort
 set_target_properties(quick_sort PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(quick_sort PRIVATE "./")
 target_link_libraries(quick_sort)
+
+add_executable(kway_sort
+    "kway-sorting.hpp"
+    "kway-sorting.cpp"
+)
+set_target_properties(kway_sort PROPERTIES LINKER_LANGUAGE CXX)
+target_include_directories(kway_sort PRIVATE "./")
+target_link_libraries(kway_sort)

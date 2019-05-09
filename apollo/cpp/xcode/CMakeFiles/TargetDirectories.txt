@@ -12,6 +12,7 @@
 /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions/CMakeFiles/find_sum_cli.dir
 /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions/CMakeFiles/RUN_TESTS.dir
 /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions/CMakeFiles/find_circles_cli.dir
+/Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions/CMakeFiles/kway_sort.dir
 /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/solutions/CMakeFiles/find_path_cli.dir
 /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/utils/CMakeFiles/RUN_TESTS.dir
 /Users/wangyi/GitHub/Leetcode/problems/Onsite-Blackboard Code Interview/apollo/cpp/xcode/src/modules/utils/CMakeFiles/common.dir
