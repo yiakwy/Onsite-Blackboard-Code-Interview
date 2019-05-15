@@ -7,7 +7,6 @@
 //
 
 #include <iostream>
-#include "quick_sort.hpp"
 
 typedef int (*_cmpfunc_t)(int, int);
 

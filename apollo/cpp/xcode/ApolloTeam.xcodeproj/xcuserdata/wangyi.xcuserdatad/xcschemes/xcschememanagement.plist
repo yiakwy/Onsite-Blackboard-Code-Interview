@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>fast_four_sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>find_circles_cli.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -84,10 +89,30 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>the_maze.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>twenty_four_game.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>16F672F5119E4A8AB7AC0927</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>18CD01DF4DA54B40890F3AEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F1C080BFBEB4BF0ABCF7318</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -128,6 +153,11 @@
 			<true/>
 		</dict>
 		<key>80F318AB7E794CEBA1A760D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E7E847D94D6426C9B80C981</key>
 		<dict>
 			<key>primary</key>
 			<true/>

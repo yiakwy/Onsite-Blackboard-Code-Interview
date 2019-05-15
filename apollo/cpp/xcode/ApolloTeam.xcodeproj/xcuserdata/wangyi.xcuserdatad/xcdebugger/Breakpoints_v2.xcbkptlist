@@ -440,11 +440,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/find_circles.cpp"
-            timestampString = "578933708.708967"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "main(int argc, char** argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -456,11 +456,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/quick_sort.cpp"
-            timestampString = "579013559.1847709"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "quick_sort(int* array, size_t low, size_t high, _cmpfunc_t cmpfunc)"
             landmarkType = "9">
          </BreakpointContent>
@@ -472,11 +472,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
             landmarkName = "main(int argc, char** argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -488,11 +488,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "main(int argc, char** argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -504,11 +504,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "Init(ElemType* els, size_t size)"
             landmarkType = "7">
          </BreakpointContent>
@@ -520,11 +520,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
             landmarkName = "main(int argc, char** argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -536,11 +536,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "operator&lt;&lt;(std::ostream&amp; o, const MinHeap&lt;ElemType&gt;&amp; heap)"
             landmarkType = "9">
          </BreakpointContent>
@@ -552,11 +552,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "_str()"
             landmarkType = "7">
          </BreakpointContent>
@@ -568,11 +568,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
             landmarkName = "main(int argc, char** argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -584,13 +584,381 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/modules/solutions/kway-sorting.cpp"
-            timestampString = "579094961.287609"
+            timestampString = "579457774.99064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "main(int argc, char** argv)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/FastFourSum.hpp"
+            timestampString = "579111250.406611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "fourSum(vector&lt;int&gt;&amp; nums, int target)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/FastFourSum.hpp"
+            timestampString = "579111250.406611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "fourSum(vector&lt;int&gt;&amp; nums, int target)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501265.63603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579466679.6399651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501265.63603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579466679.6399651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501265.63603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501265.63603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "judgePoint24(vector&lt;int&gt;&amp; nums)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579500787.17386"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579500788.72517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501265.63603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "recursive_routine(std::vector&lt;Token&gt;&amp; operator_symbols, std::stack&lt;Token&gt; operators, std::stack&lt;int&gt; operants, std::vector&lt;bool&gt; visited, const std::vector&lt;int&gt;&amp; nums, int depth, int depth0, int unmtched, vector&lt;std::string&gt;&amp; ret, std::stack&lt;std::string&gt;&amp; path)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501124.248919"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "calc(char operator_symbol, int left, int right, int* ret)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/twenty_four.cpp"
+            timestampString = "579501124.727021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "calc(char operator_symbol, int left, int right, int* ret)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579618732.163205"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579621770.073464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579618732.163205"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579621770.073464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579618760.979928"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579618954.1660351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579618959.126134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579619041.343449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579619046.555595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/modules/solutions/the_maze.cpp"
+            timestampString = "579621770.073464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start, vector&lt;int&gt; &amp;destination)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

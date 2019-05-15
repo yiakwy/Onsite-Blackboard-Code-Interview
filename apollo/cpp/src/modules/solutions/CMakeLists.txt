@@ -19,8 +19,6 @@ target_include_directories(linear_scanning_cli PRIVATE "./")
 target_link_libraries(linear_scanning_cli common graph glviewer)
 
 add_executable(find_sum_cli
-    "find_sum.hpp"
-    "find_sum.cpp"
     "algorithms/segment_tree.hpp"
     "algorithms/segment_tree.cpp"
     )
@@ -29,7 +27,6 @@ target_include_directories(find_sum_cli PRIVATE "./")
 target_link_libraries(find_sum_cli graph common)
 
 add_executable(find_circles_cli
-    "find_circles.hpp"
     "find_circles.cpp"
     )
 set_target_properties(find_circles_cli PROPERTIES LINKER_LANGUAGE CXX)
@@ -37,7 +34,6 @@ target_include_directories(find_circles_cli PRIVATE "./")
 target_link_libraries(find_circles_cli graph)
 
 add_executable(quick_sort
-    "quick_sort.hpp"
     "quick_sort.cpp"
 )
 set_target_properties(quick_sort PROPERTIES LINKER_LANGUAGE CXX)
@@ -45,9 +41,23 @@ target_include_directories(quick_sort PRIVATE "./")
 target_link_libraries(quick_sort)
 
 add_executable(kway_sort
-    "kway-sorting.hpp"
     "kway-sorting.cpp"
 )
 set_target_properties(kway_sort PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(kway_sort PRIVATE "./")
 target_link_libraries(kway_sort)
+
+add_executable(fast_four_sum
+    "FastFourSum.hpp"
+    "FastFourSum.cpp"
+)
+target_include_directories(fast_four_sum PRIVATE "./")
+target_link_libraries(fast_four_sum)
+
+add_executable(twenty_four_game
+    "twenty_four_incorrect.cpp"
+)
+
+add_executable(the_maze
+    "the_maze.cpp"
+)

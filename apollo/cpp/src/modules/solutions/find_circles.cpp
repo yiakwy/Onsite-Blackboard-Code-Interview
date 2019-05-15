@@ -6,7 +6,6 @@
 //
 //
 
-#include "find_circles.hpp"
 #include <iostream>
 #include <memory>
 
