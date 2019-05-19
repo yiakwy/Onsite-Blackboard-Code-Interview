@@ -55,7 +55,7 @@ target_include_directories(fast_four_sum PRIVATE "./")
 target_link_libraries(fast_four_sum)
 
 add_executable(twenty_four_game
-    "twenty_four_incorrect.cpp"
+    "twenty_four.cpp"
 )
 
 add_executable(the_maze
