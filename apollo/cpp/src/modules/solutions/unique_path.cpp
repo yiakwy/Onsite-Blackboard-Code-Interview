@@ -22,9 +22,34 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    int uniquePaths(int m, int n) {
+
+        int small, max;
+        if (m > n) {
+            small = n;
+            max = m;
+        } else {
+            small = m;
+            max = n;
+        }
+        
+        // base = (small-1)!
+        // denominator = (max+small-2)! started from max
+        long ret = 1.0;
+        for (int i=max; i <= max+small-2; i++) {
+            // ret *= (i*1.0f / (i-max+1)); // wrong
+            ret *= i;
+            ret /= (i-max+1);
+        }
+        return (int)ret;
+    }
+};
+
 int main(int argc, char** argv)
 {
-    Solution sol;
-    int ret = sol.uniquePaths(3, 2);
+    Solution2 sol;
+    int ret = sol.uniquePaths(23, 12);
     std::cout << ret << std::endl;
 }
