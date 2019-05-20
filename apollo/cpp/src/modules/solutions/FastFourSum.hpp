@@ -86,7 +86,7 @@ public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         vector<vector<int>> rets;
         
-        // std::sort(rets.begin(), rets.end());
+        std::sort(nums.begin(), nums.end());
         
         routine(nums, 4, target, rets);
         return rets;
