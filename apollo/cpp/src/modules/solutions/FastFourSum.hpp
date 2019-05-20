@@ -28,8 +28,8 @@ bool SumTwo(vector<int>& operants, int target, vector<vector<int>>& rets) {
         if (query_cache.find(complement) != query_cache.end()) {
             flag = true;
             vector<int> ret;
-            ret.push_back(operants[i]);
             ret.push_back(complement);
+            ret.push_back(operants[i]);
             rets.push_back(ret);
             query_cache[complement]--;
             if (query_cache[complement] == 0) {

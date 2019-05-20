@@ -61,3 +61,7 @@ add_executable(twenty_four_game
 add_executable(the_maze
     "the_maze.cpp"
 )
+
+add_executable(unique_path
+    "unique_path.cpp"
+)
