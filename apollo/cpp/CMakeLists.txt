@@ -69,5 +69,6 @@ add_subdirectory(${SRCS_ROOT}/gl)
 add_subdirectory(${SRCS_ROOT}/vtk)
 
 if (TEST)
+    echo ("Building tests ...")
    add_subdirectory(tests/gtest)
 endif()

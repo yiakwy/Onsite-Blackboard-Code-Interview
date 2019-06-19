@@ -65,3 +65,28 @@ add_executable(the_maze
 add_executable(unique_path
     "unique_path.cpp"
 )
+
+add_executable(floyd_path_tp
+    "floyd_path_tp.cpp"
+)
+
+add_executable(string_mtch
+    "string_mtch.cpp"
+)
+
+add_library(lucky_draw
+    "lucky_draw_stone_tech.hpp"
+    "lucky_draw_stone_tech.cpp"
+)
+target_link_libraries(
+    lucky_draw
+)
+set_target_properties(lucky_draw PROPERTIES LINKER_LANGUAGE CXX PRIVATE ${LIB_LINKER_FLAGS})
+
+add_executable(integral_map
+    "integral_map.cpp"
+)
+
+add_executable(quick_linked_sort
+    "quick_linked_sort.cpp"
+)

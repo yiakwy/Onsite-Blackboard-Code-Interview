@@ -309,6 +309,9 @@ glviewer_LIB_DEPENDS:STATIC=general;/usr/local/lib/libgflags.dylib;general;/usr/
 //Dependencies for the target
 graph_LIB_DEPENDS:STATIC=general;/usr/local/lib/libgflags.dylib;general;/usr/local/lib/libglog.dylib;general;common;
 
+//Dependencies for the target
+lucky_draw_LIB_DEPENDS:STATIC=general;/usr/local/lib/libgflags.dylib;general;/usr/local/lib/libglog.dylib;
+
 
 ########################
 # INTERNAL cache entries
@@ -540,17 +543,31 @@ find_path_cli_GUID_CMAKE:INTERNAL=7D27B6C3631E4CA09B301570
 //Stored Xcode object GUID
 find_sum_cli_GUID_CMAKE:INTERNAL=E71AB672F95E43758C79855E
 //Stored Xcode object GUID
+floyd_path_tp_GUID_CMAKE:INTERNAL=F180FC0BDBB34343B1ECAABA
+//Stored Xcode object GUID
 glviewer_GUID_CMAKE:INTERNAL=7A09886B2D954AACA7B3C5BF
 //Stored Xcode object GUID
 graph_GUID_CMAKE:INTERNAL=6E33401F1D7B45D6B285EA80
+//Stored Xcode object GUID
+integral_map_GUID_CMAKE:INTERNAL=A3C82252F79844389DAF4811
 //Stored Xcode object GUID
 kway_sort_GUID_CMAKE:INTERNAL=464EC806FB0E4F88910CCAD4
 //Stored Xcode object GUID
 linear_scanning_cli_GUID_CMAKE:INTERNAL=4F896F5CD7F845F39BB45A0F
 //Stored Xcode object GUID
+lucky_draw_GUID_CMAKE:INTERNAL=556BA0DB4E91478A942209CE
+//Stored Xcode object GUID
+quick_linked_sort_GUID_CMAKE:INTERNAL=9B731E02F33545DFABC47204
+//Stored Xcode object GUID
 quick_sort_GUID_CMAKE:INTERNAL=B2804F9FDFA149E7991FBA25
+//Stored Xcode object GUID
+string_mtch_GUID_CMAKE:INTERNAL=755DB378C34948C0AE377180
+//Stored Xcode object GUID
+test_lucky_draw_suites_GUID_CMAKE:INTERNAL=68C513EEFD8C40F282F66FDB
 //Stored Xcode object GUID
 the_maze_GUID_CMAKE:INTERNAL=9E7E847D94D6426C9B80C981
 //Stored Xcode object GUID
 twenty_four_game_GUID_CMAKE:INTERNAL=16F672F5119E4A8AB7AC0927
+//Stored Xcode object GUID
+unique_path_GUID_CMAKE:INTERNAL=EAA18CA387D54DDDAF5A6D55
 

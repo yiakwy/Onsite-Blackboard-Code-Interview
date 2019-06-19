@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>floyd_path_tp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>glviewer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +78,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>integral_map.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
 		</dict>
 		<key>kway_sort.xcscheme</key>
 		<dict>
@@ -84,10 +94,30 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>lucky_draw.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>quick_linked_sort.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>quick_sort.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>14</integer>
+		</dict>
+		<key>string_mtch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>test_lucky_draw_suites.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 		<key>the_maze.xcscheme</key>
 		<dict>
@@ -98,6 +128,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
+		</dict>
+		<key>unique_path.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -137,7 +172,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>556BA0DB4E91478A942209CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68C513EEFD8C40F282F66FDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6E33401F1D7B45D6B285EA80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>755DB378C34948C0AE377180</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -157,6 +207,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9B731E02F33545DFABC47204</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9E7E847D94D6426C9B80C981</key>
 		<dict>
 			<key>primary</key>
@@ -168,6 +223,11 @@
 			<true/>
 		</dict>
 		<key>A0823D4E6F2B4C34BECFB9A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3C82252F79844389DAF4811</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -188,6 +248,16 @@
 			<true/>
 		</dict>
 		<key>E71AB672F95E43758C79855E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAA18CA387D54DDDAF5A6D55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F180FC0BDBB34343B1ECAABA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

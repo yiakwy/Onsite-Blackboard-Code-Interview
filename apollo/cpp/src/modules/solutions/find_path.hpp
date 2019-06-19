@@ -7,7 +7,7 @@
 //
 
 #ifndef find_path_hpp
-#define fidn_path_hpp
+#define find_path_hpp
 
 #include "graph/graph.h"
 
