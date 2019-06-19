@@ -30,6 +30,40 @@ In summary, I expect to receive the following files in a compressed format.
 
 #### Answer
 
+##### Installation
+
+See `project_root` at [my test repository for OA](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/tree/master/apollo/cpp)
+
+Download the installation scripts I prepared for `grpc++-pubsub` project into the `project_root/scripts`
+
+> wget https://raw.githubusercontent.com/yiakwy/grpc-gateway/master/scripts/install.sh
+
+Execute the following script
+
+> sh scripts/install.sh
+
+should install all the dependencies for you.
+
+Also see `thirdparties` for other modules installation.
+
+##### Debug & Build
+
+This script will automatically
+
+> sh scripts/init\_xcode\_proj.sh
+
+generate xcode files. You can also build by 
+
+> sh scripts/build.sh
+
+##### Solution Address
+
+[Click here](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/src/modules/solutions/lucky_draw_stone_tech.hpp)
+
+##### GTest Snapshot
+
+[Click here](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/tests/gtest/test_lucky_draw_benchmark.cpp)
+
 ```txt
 [==========] Running 1 test from 1 test case.
 [----------] Global test environment set-up.
@@ -59,3 +93,33 @@ Prob.1 Develop a less complex algorithm compared with global search, to find a d
 ```
 
 #### Answer
+
+##### Solution Address
+
+[Click here](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/src/modules/solutions/integral_map.cpp)
+
+##### Asymtotic Time Complexity
+
+```
+Big O(nlogn)
+```
+
+## Q3
+
+##### QuickSort and Optimization
+
+```
+Given that an array of M length is constructed employing a random number generator of (0~65535) unsigned type.
+
+Prob.1 Implement a quicksort routine for ascending sorting of the linked list. (Codes) (10 points)
+
+Prob.2a Suppose we have the priori knowledge that a decent percentage of number generated is 0, say 25%. Improve the above routine. (2 points)
+
+Prob.2b Suppose we have the priori knowledge of the random number’s PDF, which is not necessarily uniform. Improve the above routine. (3 points)
+
+
+```
+
+##### Solution Address
+
+Check [all three in one solutions](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/src/modules/solutions/quick_linked_sort.cpp)
