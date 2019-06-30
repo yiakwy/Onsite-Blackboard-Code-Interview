@@ -83,10 +83,9 @@ Program ended with exit code: 0
 #### Find a given value in an integral map
 
 ```
-Integral map is defined as a matrix I(x,y) with monotonic increasing row and column, i.e.
+Integral map is defined as a matrix I(x,y) with monotonic increasing row and column, i.e. 
 
-
-Fig. Illustration of an integral map
+[See <Roborock Shanghai Software Team.doc>]Fig. Illustration of an integral map
 
 Prob.1 Develop a less complex algorithm compared with global search, to find a designated value v in the map. (Codes) (10 points)
 
@@ -98,10 +97,24 @@ Prob.1 Develop a less complex algorithm compared with global search, to find a d
 
 [Click here](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/src/modules/solutions/integral_map.cpp)
 
+The question is about two dimensional range searching and the pixel data in Image is arranged in some order.
+
+Conventionly, we use a quadtree to perform 2 dimensional range search by using Axis Aligned Bounding Box (AABB) intersection operation. That was used to shrink searching range. In this problem, from the perspective of sorting, I quickly identified that topleft pixel of the image is the smallest value while the bottom right pixel of the image is the biggest value derived by the given inequalities.
+
+The main program first exclude the point in the range (topLeft, bottomRight). The image square block is splittable which means both the width and heigth should be greater than 2, split the space into 4 sub squares and perform the algorithm recursively. If that is not the case, perform brute force searchfor the constrained grid. 
+
+The program terminated by either returning the first pixle of which value matches the given one or no such pixel found.  
+
 ##### Asymtotic Time Complexity
 
 ```
-Big O(nlogn)
+Denote the bigger dimensional size of the image as n, the worst asymtotc time complexity T(n). Our alogrithm has two phases in one routine: query by building a quadTree.
+
+I will give you a detialed analysis by applying The Master Theorem later on 
+worst time complexity and average time complexity least upper bound. You can also derive that from my codes by yourself. I am busiy now. Good luck.
+
+Worst time complexity: Big O(n)
+Average time complexity: Big O(log(n))
 ```
 
 ## Q3
@@ -122,4 +135,8 @@ Prob.2b Suppose we have the priori knowledge of the random number’s PDF, which
 
 ##### Solution Address
 
-Check [all three in one solutions](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/src/modules/solutions/quick_linked_sort.cpp)
+Traditional randomized quick sort is implemented by applying random permutation before computing a pivot position, then subdive the problems to two subproblems. For linked list, insertation and deletion is much more easier compared to the linear storage. Though we don't use it in common practice \(see python array implementation\), I still show you how this is implemented and optimized for arbitray non-uniform distribution input.
+
+Since random permutation requires additional scanning, we didn't use the randomized technique and the algorithm can achieve O(nlog(n)) for some input.
+
+Check [the all in one solution](https://github.com/yiakwy/Onsite-Blackboard-Code-Interview/blob/master/apollo/cpp/src/modules/solutions/quick_linked_sort.cpp)

@@ -19,7 +19,7 @@ Input: [4, 1, 8, 7]
 2. Explanation:
 
 ```
-The arithmetic expression is equivalent to a expression tree where parenthesis eliminated. Here are possible solutions using brute force search of possible tree structures, we find:
+The arithmetic expression is equivalent to an expression tree where parenthesis eliminated. Here are possible solutions using brute force search of possible tree structures, we find:
 
 8*(7-4/1)
 8*(4/1-7)

@@ -4,6 +4,7 @@
 |---|------|-----------|------|
 | 1 | Find path | \ | Easy |
 | 2 | Linear Scanning Algorithm | [c++11/14](./algorithms/linear_scanning.cpp) | Hard | 
+| x | Other problems | [c++11/14](./) | Easy - Hard |
 
 #### No.1 Title: given bidirectional edges, with start point and end point, find the shortest path from the start to end. \(yiak.wy@gmail.com\)
 
@@ -32,4 +33,6 @@ Your are required to write codes to parsing input and print computed output onto
 
 It is important to locate a point within non-convex geometry. Try to implement an algorithm to verify wether a point inside or outside an arbitrary geometry.
 
+#### No.x Other problems
 
+See the codes

@@ -5,6 +5,10 @@ Domestic Code Review
 
 | # | Company | Title | Solution | TimeExpected | Difficulty |
 |---|---------|-------|----------|--------------|------------|
+|2019-05| Google Beijing/Mountain View | [Suffix automata: String matching](./apollo/cpp/src/modules/solutions/Google201906.md) | [c++11/14] | 45(mins) | Hard |
+|2019-05| LeetCode | [four-sum](./apollo/cpp/src/modules/solutions/Four_Sum.md) | [c++11/14] | 45(mins) | Hard |
+|2019-05| LeetCode | [24-game](./apollo/cpp/src/modules/solutions/Twenty_Four_Game.md) | [c++11/14] | 45(mins) | Hard |
+|2019-05| LintCode | [The Maze](./apollo/cpp/src/modules/solutions/The_Maze.md) | [c++11/14] | 45(mins) | Middle |
 |2019-04| apollo | [FindPath/LinearScan](./apollo/cpp/src/modules/solutions/README.md) | [c++11/14] | 45(mins) | Easy |
 |2019-04| Airbnb | [diff\_tree](./airbnb/P2/src/modules/solutions/README.md) | [c++11/14](./airbnb/P2/src/modules/solutions/diff_tree.cpp) | 45(mins) | Easy |
 |2018-09-10| \ | [Introduction to writing modern generation of languages](./compiler/Description.md) | [c++11/14] | 120(mins) | Hard |
